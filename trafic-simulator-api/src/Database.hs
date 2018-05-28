@@ -8,6 +8,8 @@ module Database
 
 import Database.HDBC
 import Database.HDBC.Sqlite3
+import CSVParsing
+import Text.ParserCombinators.Parsec
 
 connect :: IO Connection
 connect = connectSqlite3 "TrafficSignalDB.db"
@@ -66,3 +68,12 @@ insertTrafficSignal localizacao1 localizacao2 funcionamento utilizacao sinalsono
     result <- execute stmt [toSql (currentID + 1), toSql localizacao1, toSql localizacao2, toSql funcionamento, toSql utilizacao, toSql sinalsonoro, toSql sinalizadorciclista, toSql latitude, toSql longitude]
     commit conn
     disconnect conn
+
+insertDataFromCSV = do
+    l <- readDataFromCSV
+    insertAllLines (parseData l)
+
+insertAllLines :: Either ParseError [[String]] -> IO ()
+insertAllLines (Right (x:xs)) = do 
+    insertTrafficSignal (elemIndex x 1) (elemIndex x 2) (elemIndex x 3) (elemIndex x 4) (toChar (elemIndex x 5)) (toChar (elemIndex x 6)) (read (elemIndex x 7)::Double) (read (elemIndex x 8)::Double) 
+    insertAllLines (Right xs)
