@@ -3,6 +3,7 @@ module Controller.TrafficSignalController where
 
 import Web.Scotty
 import Model.TrafficSignal
+import Database
 
 t1 = TrafficSignal { 
   trafficId = 1, 
@@ -10,8 +11,8 @@ t1 = TrafficSignal {
   localizacao2 = "loc2",
   funcionamento = "func",
   utilizacao = "ut",
-  sinalSonoro = True,
-  sinalizadorCiclista = False,
+  sinalSonoro = "S",
+  sinalizadorCiclista = "T",
   latitude = -8.4235,
   longitude = -54.1232
 }
@@ -21,8 +22,8 @@ t2 = TrafficSignal {
   localizacao2 = "loc4",
   funcionamento = "func",
   utilizacao = "utl",
-  sinalSonoro = False,
-  sinalizadorCiclista = True,
+  sinalSonoro = "N",
+  sinalizadorCiclista = "N",
   latitude = -12.4235,
   longitude = -34.1232
 }

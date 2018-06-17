@@ -63,3 +63,10 @@ packages:
 #
 # Allow a newer minor version of GHC than the snapshot specifies
 # compiler-check: newer-minor
+
+extra-include-dirs: ['sqlite3/']
+
+extra-lib-dirs: ['sqlite3/']
+
+extra-deps:
+- HDBC-sqlite3-2.3.3.1

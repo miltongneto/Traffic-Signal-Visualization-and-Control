@@ -2,7 +2,8 @@
 module Database 
   ( createTableTrafficSignal,
     selectAllTrafficSignals,
-    insertTrafficSignal
+    insertTrafficSignal,
+    getTrafficSignalById
   ) where
 
 
@@ -10,6 +11,7 @@ import Database.HDBC
 import Database.HDBC.Sqlite3
 import CSVParsing
 import Text.ParserCombinators.Parsec
+import Model.TrafficSignal
 
 connect :: IO Connection
 connect = connectSqlite3 "TrafficSignalDB.db"
@@ -27,6 +29,21 @@ selectAllTrafficSignals = do
     result <- quickQuery' conn "SELECT * FROM TrafficSignal" []
     mapM_ print result
 -}
+
+
+trafficSignalFromSql [id, localizacao1, localizacao2, func, utl, sinalsonoro, sinalizadorciclista, latitude, longitude] =
+    TrafficSignal {
+    trafficId =  fromSql id, 
+    localizacao1 = fromSql localizacao1, 
+    localizacao2 = fromSql localizacao2,
+    funcionamento = fromSql func,
+    utilizacao = fromSql utl,
+    sinalSonoro = fromSql sinalsonoro,
+    sinalizadorCiclista = fromSql sinalizadorciclista,
+    latitude = fromSql latitude,
+    longitude = fromSql longitude
+}
+
 
 selectAllTrafficSignals :: IO ()
 selectAllTrafficSignals = do
@@ -78,3 +95,11 @@ insertAllLines (Right []) = return ()
 insertAllLines (Right (x:xs)) = do 
     insertTrafficSignal (elemIndex x 1) (elemIndex x 2) (elemIndex x 3) (elemIndex x 4) (toChar (elemIndex x 5)) (toChar (elemIndex x 6)) (read (elemIndex x 7)::Double) (read (elemIndex x 8)::Double) 
     insertAllLines (Right xs)
+
+
+--getById :: Int -> [[SqlValue]]
+getTrafficSignalById id = do
+    conn <- connect
+    result <- quickQuery' conn "SELECT * FROM TrafficSignal WHERE id == ? " [toSql (id::Int)]
+    return $ trafficSignalFromSql $ head result
+    --mapM_ print r

@@ -10,10 +10,10 @@ data TrafficSignal = TrafficSignal {
   localizacao2        :: String,
   funcionamento       :: String,
   utilizacao          :: String,
-  sinalSonoro         :: Bool,
-  sinalizadorCiclista :: Bool,
-  latitude            :: Float,
-  longitude           :: Float
+  sinalSonoro         :: String,
+  sinalizadorCiclista :: String,
+  latitude            :: Double,
+  longitude           :: Double
 } deriving (Show, Generic)
 
 instance ToJSON TrafficSignal
