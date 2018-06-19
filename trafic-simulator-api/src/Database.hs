@@ -111,3 +111,11 @@ getAllTrafficSignals = do
     conn <- connect
     results <- quickQuery' conn "SELECT * FROM TrafficSignal" []
     return $ map trafficSignalFromSql results
+
+updateTrafficSignalStatus :: IO ()
+updateTrafficSignalStatus = do
+    con <- connect
+    stmt <- prepare conn "INSERT INTO TrafficSignal VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+    result <- execute stmt
+    commit conn
+    disconnect conn
