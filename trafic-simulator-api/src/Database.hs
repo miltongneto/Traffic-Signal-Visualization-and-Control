@@ -115,7 +115,7 @@ getAllTrafficSignals = do
 updateTrafficSignalStatus :: IO ()
 updateTrafficSignalStatus = do
     con <- connect
-    stmt <- prepare conn "INSERT INTO TrafficSignal VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+    stmt <- prepare conn "update TrafficSignal set status = (status + 1) % 3 lastUpdate = now() where now() - lastUpdate > "
     result <- execute stmt
     commit conn
     disconnect conn
