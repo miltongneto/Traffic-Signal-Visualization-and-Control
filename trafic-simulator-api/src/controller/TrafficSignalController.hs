@@ -2,8 +2,13 @@
 module Controller.TrafficSignalController where
 
 import Web.Scotty
+import Web.Scotty.Internal.Types
 import Model.TrafficSignal
 import Database
+import Control.Monad
+import Control.Monad.IO.Class
+import GHC.Generics
+import Data.Aeson.Types
 
 t1 = TrafficSignal { 
   trafficId = 1, 
@@ -30,17 +35,15 @@ t2 = TrafficSignal {
 allSignal = [t1, t2]
 
 getById :: ActionM ()
-getById = do 
+getById = do
   id <- param "id"
-  json $ filter (equalId id) allSignal
-
-equalId :: Int -> TrafficSignal -> Bool
-equalId id trafficSignal = trafficId trafficSignal == id
-
+  trafficSignal <- liftIO $ getTrafficSignalById id
+  json trafficSignal
 
 getAll :: ActionM ()
 getAll = do 
-  json allSignal
+  trafficSignals <- liftIO $ getAllTrafficSignals
+  json trafficSignals
 
 updateById :: ActionM ()
 updateById = do 

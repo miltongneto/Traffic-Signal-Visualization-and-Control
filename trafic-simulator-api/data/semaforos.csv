@@ -1,0 +1,656 @@
+semaforo;localizacao1;localizacao2;funcionamento;utilizacao;sinalsonoro;sinalizadorciclista;Latitude;Longitude
+1;Boa Viagem, Av.;Em frente ao parque Dona Lindú;E/Git;Ocasional/Ped.;N;N;-8.142323;-34.903798
+2;Conselheiro Aguiar, Av.;Thomé Gibson, Rua;E/Git;Veicular;N;N;-8.099068;-34.885883
+3;Boa Viagem, Av.;França Pereira, Rua;E/Git;Ocasional/Ped.;N;S;-8.106806;-34.887726
+4;Boa Viagem, Av.;Barão de Souza Leão, Rua;E/Git;Ocasional/Ped.;N;S;-8.132230;-34.899990
+5;Conselheiro Aguiar, Av.;Artur Muniz, Rua;E/Git;Veicular;N;N;-8.104310;-34.888228
+6;Conselheiro Aguiar, Av.;Antônio Falcão, Rua;E/Git;Veicular;N;N;-8.116171;-34.894686
+7;Mascarenhas de Morais, Av.;Jamaica, Rua;E/Git;Veicular;N;N;-8.107621;-34.911660
+8;Caxangá, Av.;Bom Pastor, Rua do;E/Git;Veicular;N;N;-8.040820;-34.938494
+9;Cruz Cabugá, Av.;Est BRT Casa da Misericórdia;E/Git;Pedestre;N;N;-8.044224;-34.874595
+10;II Perimetral;Parnamirim, Av.;E/Git;Veicular;N;N;-8.034731;-34.908303
+11;Conselheiro Portela, Rua;48, Rua;E/Git;Veicular;N;N;-8.041458;-34.893810
+12;Barão da Vitória, Rua;Floriano Peixoto, Rua;E;Veic.C/Ped.Paral.;N;N;-8.067321;-34.882931
+13;Sol, Rua do;Nova, Rua;E/Git;Veic.C/Ped.Ocas.;S;N;-8.063874;-34.880922
+14;Sol, Rua do;Guararapes, Av.;E/Git;Veic.C/Ped.Paral.;N;N;-8.062706;-34.880416
+15;Dantas Barreto, Av.;Guararapes, Av.;E/Git;Veic.C/Ped.Paral.;N;N;-8.063788;-34.878518
+16;Recife, Av.;São Nicolau, Rua;E/Git;Veicular;N;N;-8.106969;-34.927227
+17;Nossa Senhora do Carmo, Av.;Duque de Caxias, Rua;E/Git;Pedestre;S;N;-8.066200;-34.877317
+18;Imperador, Rua do;1º de Março, Rua;E/Git;Veicular;N;N;-8.064191;-34.876823
+19;Rio Branco, Av.;Apolo, Cais do;E/Git;Veicular;N;N;-8.062391;-34.873830
+20;Marquez de Olinda, Av.;Madre de Deus, Rua;E/Git;Veicular;N;N;-8.063611;-34.873672
+21;Hora, Rua da;48, Rua;E/Git;Veicular;N;N;-8.042905;-34.891930
+22;Princesa Isabel, Rua;Aurora, Rua da;E/Git;Veic.C/Ped.Paral.;N;N;-8.059518;-34.879984
+23;Conde da Boa Vista, Av.;Hospício, Rua do;E/Git;Veic.C/Ped.;S;N;-8.060773;-34.884050
+24;Conde da Boa Vista, Av.;Gervásio Pires, Rua;E/Git;Veic.C/Ped.;S;N;-8.059567;-34.886443
+25;Conde da Boa Vista, Av.;Soledade, Rua da;E/Git;Veic.C/Ped.;S;N;-8.057554;-34.889962
+26;Belém, Estrada de;Odorico Mendes, Rua;E;Veic.C/Ped.Ocas.;N;N;-8.032111;-34.881324
+27;Conde da Boa Vista, Av.;Dom Bosco, Rua;E/Git;Veicular;N;N;-8.055998;-34.895380
+28;Manoel Borba, Av.;Dom Bosco, Rua;E/Git;Veicular;N;N;-8.059392;-34.894050
+29;Manoel Borba, Av.;José de Alencar, Rua;E/Git;Veicular;N;S;-8.060502;-34.888369
+30;13 de Maio, Rua;Dos Palmares, Rua.;E/Git;Veicular;N;S;-8.052560;-34.883697
+31;Hospício, Rua do;Princesa Isabel, Rua;E/Git;Veic.C/Ped.Paral.;N;N;-8.057835;-34.882988
+32;Hospício, Rua do;Visc. De Suassuna, AV.;E/Git;Veic.C/Ped.;S;N;-8.055068;-34.882265
+33;Hospício, Rua do;Matriz, Rua da;E/Git;Veicular;N;N;-8.062624;-34.885292
+34;Norte Miguel Arraes de Alencar, Av.;Cruz Cabugá. Av.;E/Git;Veicular;N;N;-8.047535;-34.876962
+35;Dantas Barreto, Av.;Imperial, Rua;E/Git;Veicular;N;N;-8.072249;-34.884146
+36;Norte Miguel Arraes de Alencar, Av.;13 de Maio, Rua;E/Git;Veicular;N;N;-8.045910;-34.879089
+37;Agamenon Magalhães, Av. Gov.;Rui Barbosa, Av.;E/Git;Veicular;N;N;-8.052422;-34.895758
+38;Martin Luther King, Av.;Forum Rodolfo Aureliano, ao lado do;E/Git;Veic.C/Laço Det.;N;N;-8.069418;-34.895270
+39;Motocolombó, Rua;Augusto Wanderley, Rua;E/Git;Veicular;N;N;-8.082688;-34.906625
+40;Derby, Praça do;Jenner de Souza, Rua;E/Git;Veic.C/Ped.;N;N;-8.057073;-34.900077
+41;Príncipe, Rua do;Gervásio Pires, Rua;E/Git;Veicular;N;N;-8.057352;-34.885062
+42;Beberibe, Av.;Belém, Estrada de;E/Git;Veic.C/Ped.;N;N;-8.037235;-34.890996
+43;Norte Miguel Arraes de Alencar, Av.;João de Barros, Av.;E/Git;Veicular;N;N;-8.038574;-34.892000
+44;José Rufino, Av. Dr.;Ipojuca, Rua;E;Veicular;N;N;-8.091724;-34.936071
+45;Norte Miguel Arraes de Alencar, Av.;Fernando Cesar, Rua;E/Git;Veicular;N;N;-8.037027;-34.894343
+46;Conselheiro Rosa e Silva, Av.;Amélia, Rua;E/Git;Veicular;N;N;-8.045446;-34.897044
+47;Conselheiro Rosa e Silva, Av.;Santos Dumont, Av.;E/Git;Veicular;N;N;-8.039546;-34.899408
+48;Rui Barbosa, Av.;Amélia, Rua;E/Git;Veicular;N;N;-8.045144;-34.902060
+49;Agamenon Magalhães, Av. Gov.;Odorico Mendes, Rua;E/Git;Veicular;N;N;-8.039799;-34.878830
+50;José Osório, Rua;Visconde de Albuquerque, Rua;E/Git;Veic.C/Ped.;N;N;-8.053295;-34.906710
+51;Benfica, Rua;Remédios, Estrada dos;E/Git;Veic.C/Ped.;N;N;-8.058950;-34.907230
+52;Abdias de Carvalho, Av.;Remédios, Estrada dos;E/Git;Veicular;N;S;-8.061707;-34.907595
+53;São Miguel, Rua;Remédios, Estrada dos;E/Git;Veic.C/Ped.Ocas.;N;N;-8.080270;-34.906584
+54;Dantas Barreto, Av.;São João, Rua de;E/Git;Veic.C/Ped.Paral.;N;N;-8.070171;-34.882313
+55;Recife, Av.;Pintor Antônio Albuquerque, Rua;E/Git;Veicular;N;N;-8.107911;-34.927095
+56;Norte Miguel Arraes de Alencar, Av.;Marquez do Paraná, Rua;E/Git;Veicular;N;N;-8.039898;-34.887527
+57;Abdias de Carvalho, Av.;Carlos Gomes, Rua;E/Git;Veicular;N;N;-8.062552;-34.913114
+58;Abdias de Carvalho, Av.;San Martin, Av. Gal.;E/Git;Veicular;N;N;-8.060488;-34.925719
+59;Recife, Av.;Jacínto da Cruz, Rua Cap.;E/Git;Veicular;N;N;-8.094007;-34.929048
+60;Vincente Gomes,  Rua Dr.;Setubal,  Rua;E/Git;Veicular;N;N;-8.133058;-34.901751
+61;Arraial, Estrada do;Cônego Barata, Rua;E/Git;Veicular;N;N;-8.033199;-34.903511
+62;Norte Miguel Arraes de Alencar, Av.;Cônego Barata, Rua;E/Git;Veicular;N;N;-8.029633;-34.900494
+63;Beberibe, Av.;Men de Sá, Rua;E/Git;Veicular;N;N;-8.030124;-34.892476
+64;Beberibe, Av.;São Bento, Rua;E/Git;Veicular;N;N;-8.023192;-34.893899
+65;Norte Miguel Arraes de Alencar, Av.;Nova Descoberta, Rua;E/Git;Veicular;N;N;-8.019908;-34.926677
+66;Norte Miguel Arraes de Alencar, Av.;Padre Lemos, Rua;E/Git;Veicular;N;N;-8.020799;-34.921718
+67;San Martin, Av. Gal.;Gomes Taborda, Rua;E;Veic.C/Ped.;N;N;-8.055486;-34.923966
+68;Agamenon Magalhães, Av. Gov.;Henrique Dias, Rua;E/Git;Veicular;N;N;-8.058912;-34.897931
+69;Agamenon Magalhães, Av. Gov.;Paissandú, Rua do;E/Git;Veic.C/Ped.Paral.;N;N;-8.062523;-34.897543
+70;Jean Emile Favre, Rua;Saturnino Meireles, Rua;E;Veicular;N;N;-8.113264;-34.922089
+71;Joaquim Nabuco, Rua;Creoulas, Rua das;E/Git;Veicular;N;N;-8.052473;-34.899471
+72;Sul, Av.;Sob Viaduto de 5 Pontas;E;Ocasional/Ped.;S;N;-8.072364;-34.880475
+73;Nicolau Pereira, Rua;Paz, Rua da;E/Git;Veicular;N;N;-8.079545;-34.904337
+74;Arraial, Estrada do;Harmonia, Rua da;E/Git;Veic.C/Ped.;N;N;-8.027477;-34.913859
+75;Agamenon Magalhães, Av. Gov.;Carlos de Lima Cavalcante, Av.;E/Git;Veicular;N;N;-8.056709;-34.897924
+76;Santa Rita, Cais de;E/F ao Armazém 16;E/Git;Veicular;N;N;-8.069600;-34.875396
+77;Beira Rio, Av.;Ponte da Torre, Próx.;E/Git;Ocasional/Ped.;N;N;-8.046546;-34.904220
+78;Agamenon Magalhães, Av. Gov.;Buenos Aires, Rua;E/Git;Veicular;N;N;-8.048678;-34.892940
+79;Norte Miguel Arraes de Alencar, Av.;Córrego do Bartolomeu, Rua;E/Git;Veicular;N;N;-8.024091;-34.911926
+80;Caxangá, Av.;San Martin, Av. Gal.;E/Git;Veicular;N;N;-8.050447;-34.921077
+81;Norte Miguel Arraes de Alencar, Av.;Santos Dumont, Av.;E/Git;Veicular;N;N;-8.033536;-34.896475
+82;José Rufino, Av. Dr.;João Teixeira, Rua;E;Veic.C/Ped.Ocas.;N;N;-8.084694;-34.928126
+83;Manoel Borba, Av.;Ninfas, Rua das;E/Git;Veicular;N;S;-8.059303;-34.891310
+84;Boa Viagem, Av.;Armindo Moura, Av.;E/Git;Veic.C/Ped.Paral.;N;S;-8.151128;-34.907787
+85;Recife, Av.;Estevão Fernandes, Rua Cap.;E/Git;Ocasional/Ped.;N;N;-8.092779;-34.929265
+86;Barão de Itamaracá, Rua;Espinheiro, Rua do;E/Git;Veicular;N;N;-8.043457;-34.893356
+87;Imperial, Rua;do Gaspar, Travessa;E;Ocasional/Ped.;N;N;-8.076451;-34.895944
+88;Maurício de Nassau, Av.;Nossa Senhora da Saúde, Rua;E;Veicular;N;N;-8.040724;-34.927190
+89;João de Barros, Av.;Espinheiro, Rua do;E/Git;Veicular;N;N;-8.041333;-34.891432
+90;Aurora, Rua da;Mário Melo. Av.;E;Veic.C/Ped.;N;N;-8.056323;-34.877953
+91;Falcão de Lacerda, Rua;E/F à Igreja de Tejipió;E;Ocasional/Ped.;N;N;-8.093354;-34.963753
+92;Hospício, Rua do;Riachuelo, Rua do;E/Git;Veicular;N;N;-8.059149;-34.883491
+93;Álvares de Azevedo, Rua;Gouveia de Barros, Rua;E;Veicular;N;N;-8.049570;-34.888670
+94;Belém, Estrada de;Prudente de Moraes, Rua;E;Veicular;N;N;-8.032989;-34.884563
+95;Norte Miguel Arraes de Alencar, Av.;D. Luiz, Largo;E/Git;Veicular;N;N;-8.021323;-34.917489
+96;Norte Miguel Arraes de Alencar, Av.;Mangabeira, Rua da;E/Git;Veicular;N;N;-8.025589;-34.906581
+97;Norte Miguel Arraes de Alencar, Av.;E/F a Paróquia de São Sebastião;E/Git;Veic.C/Ped.Ocas.;N;N;-8.043957;-34.882417
+98;Santos Dumont, Av.;José Maria, Rua Dr.;E/Git;Veicular;N;N;-8.035649;-34.897487
+99;Conselheiro Rosa e Silva, Av.;Barão de contendas, Rua;E/Git;Ocasional/Ped.;N;N;-8.041708;-34.898009
+100;Bongi, Estrada Velha do;Cosme Viana, Rua;E;Veicular;N;N;-8.068287;-34.909790
+101;Jean Emile Favre, Rua;Blumenau, Rua;E;Veicular;N;N;-8.109943;-34.918273
+102;Rui Barbosa, Av.;Creoulas, Rua das;E/Git;Veicular;N;N;-8.049903;-34.898007
+103;Antônio de Góis, Av.;Manoel de Brito, Rua;E/Git;Veicular;N;N;-8.085444;-34.886685
+104;Boa Viagem, Av.;Herculano Bandeira, Rua;E/Git;Veic.C/Ped.Paral.;N;S;-8.091769;-34.882053
+105;Boa Viagem, Av.;Thomé Gibson, Rua;E/Git;Veic.C/Ped.Paral.;N;S;-8.099740;-34.884436
+106;Real da Torre, Rua;Conde de Irajá, Rua;E/Git;Veicular;N;N;-8.046317;-34.909548
+107;17 de Agosto, Av.;Estrada do Arraial;E/Git;Veicular;N;N;-8.027788;-34.927156
+108;Agamenon Magalhães, Av. Gov.;Em frente à DRT;E/Git;Ocasional/Ped.;S;N;-8.043536;-34.887514
+109;Maurício de Nassau, Av.;Próx. Rua Santa Lúcia;E;Ocasional/Ped.;N;N;-8.039282;-34.929594
+110;Boa Viagem, Av.;Pereira da Costa, Rua;E/Git;Ocasional/Ped.;N;S;-8.095900;-34.883112
+111;Itanagé, Rua;Blumenau, Rua;E;Veicular;N;N;-8.106442;-34.921326
+112;Boa Viagem, Av.;Padre Carapuceiro, Rua;E/Git;Ocasional/Ped.;N;S;-8.120273;-34.895078
+113;Boa Viagem, Av.;Ernesto de Paula Santos, Rua;E/Git;Veic.C/Ped.Paral.;N;S;-8.125274;-34.897142
+114;Conselheiro Aguiar, Av.;Benedito Chaves, Rua Cel.;E/Git;Veicular;N;N;-8.129069;-34.898560
+115;Conselheiro Aguiar, Av.;Padre Carapuceiro, Rua;E/Git;Veicular;N;N;-8.120288;-34.895068
+116;Mascarenhas de Morais, Av. sentido Cid/Sub;Após o viaduto Tancredo Neves;E/Git;Ocasional/Ped.;N;N;-8.125110;-34.915075
+117;Boa Viagem, Av.;3º Jardim;E/Git;Ocasional/Ped.;N;S;-8.108815;-34.888605
+118;Boa Viagem, Av.;1º Jardim;E/Git;Ocasional/Ped.;N;S;-8.101374;-34.885168
+119;Boa Viagem, Av.;Ondina, Rua;E/Git;Ocasional/Ped.;N;S;-8.094196;-34.882681
+120;Boa Viagem, Av.;Bruno Veloso, Rua;E/Git;Veic.C/Ped.Paral.;N;S;-8.121939;-34.895997
+121;Boa Viagem, Av.;Atlântico, Rua do;E/Git;Ocasional/Ped.;N;S;-8.098279;-34.883756
+122;Frei Matias Teves, Av.;Dr. João Ásfora, Rua;E/Git;Veicular;N;N;-8.063672;-34.896197
+123;Boa Viagem, Av.;Benvinda de Farias, Rua;E/Git;Veic.C/Ped.Paral.;N;S;-8.111829;-34.889969
+124;Boa Viagem, Av.;2º Jardim;E/Git;Ocasional/Ped.;N;S;-8.104509;-34.886665
+125;Conselheiro Aguiar, Av.;Padre Bernadino Pessoa, Rua;E/Git;Veicular;N;N;-8.114538;-34.893663
+126;Rui Barbosa, Av.;Esmeraldino Bandeira, Rua;E/Git;Veicular;N;N;-8.047637;-34.899890
+127;Conselheiro Aguiar, Av.;Ernesto de Paula Santos, Rua;E/Git;Veicular;N;N;-8.124892;-34.899121
+128;Domingos Ferreira, Av.;Benedito Chaves, Rua Cel.;E/Git;Veicular;N;N;-8.127933;-34.901425
+129;Visconde de Jequitinhonha, Av.;Barão de Souza Leão, Rua;E/Git;Veicular;N;N;-8.131572;-34.902889
+130;Recife, Av.;Jean Emile Favre, Rua;E/Git;Veicular;N;N;-8.115394;-34.924526
+131;Beberibe, Av.;José dos Anjos, Av. Prof.;E/Git;Veicular;N;N;-8.027954;-34.892919
+132;Abdias de Carvalho, Av.;João Ivo, Rua;E/Git;Veicular;N;N;-8.062088;-34.909676
+133;Conselheiro Aguiar, Av.;Souto Filho, Após a Rua;E/Git;Ocasional/Ped.;N;N;-8.092824;-34.883905
+134;Mário Alves de Lira, Av.;Xavier de Brito, Rua;E/Git;Veicular;N;N;-8.046993;-34.936048
+135;Jean Emile Favre,;Rua	COSTA E SILVA, AV;;;;;-8.115302;-34.922666
+136;Paula Batista, Rua;Nereu Guerra, Rua;E/Git;Veicular;N;N;-8.025550;-34.915383
+137;Herculano Bandeira, Rua;Miranda Falcão, Rua;E/Git;Ocasional/Ped.;N;N;-8.088874;-34.885203
+138;Herculano Bandeira, Rua;Conselheiro Aguiar, Av.;E/Git;Veicular;N;N;-8.090466;-34.883615
+139;Domingos Ferreira, Av.;Benvinda de Farias, Rua;E/Git;Veicular;N;N;-8.110533;-34.892364
+140;Conselheiro Aguiar, Av.;Pereira da Costa, Rua;E/Git;Veicular;N;N;-8.095521;-34.884655
+141;Dantas Barreto, Av.;Siqueira Campos, Rua;E/Git;Veicular;N;N;-8.062692;-34.878243
+142;Domingos Ferreira, Av.;Pereira da Costa, Rua;E/Git;Veicular;N;N;-8.095197;-34.885913
+143;Conselheiro Aguiar, Av.;Benvinda de Farias, Rua;E/Git;Veicular;N;N;-8.110957;-34.891519
+144;Domingos Ferreira, Av.;Padre Bernadino Pessoa, Rua;E/Git;Veicular;N;N;-8.114084;-34.894511
+145;Domingos Ferreira, Av.;Antônio Falcão, Rua;E/Git;Veicular;N;N;-8.115744;-34.895531
+146;Conselheiro Aguiar, Av.;Bruno Veloso, Rua;E/Git;Veicular;N;N;-8.121770;-34.897939
+147;Conselheiro Aguiar, Av.;Ribeiro de Brito, Rua;E/Git;Veicular;N;N;-8.123740;-34.898664
+148;Boa Viagem, Av.;Mário de Castro, Rua Prof.;E/Git;Veic.C/Ped.Paral.;N;S;-8.137039;-34.901918
+149;Boa Viagem, Av.;Baltazar Passos, Rua;E/Git;Veic.C/Ped.Paral.;N;S;-8.145063;-34.905147
+150;Boa Viagem, Av.;Antônio Veloso, Rua Cel.;E/Git;Ocasional/Ped.;N;S;-8.148817;-34.906892
+151;Lins Pettit, Av.;Praça Chora Menino, Em frente;E/Git;Ocasional/Ped.;S;N;-8.060402;-34.894791
+152;Boa Viagem, Av.;Benedito Chaves, Rua;E/Git;Ocasional/Ped.;N;S;-8.129072;-34.898562
+153;Beberibe, Av.;Próx. São Joaquim do Monte, Rua;E;Ocasional/Ped.;N;N;-8.017012;-34.891978
+154;Visconde de Jequitinhonha, Av.;Baltazar Passos, Rua;E/Git;Veicular;N;N;-8.144380;-34.906482
+155;Domingos Ferreira, Av.;Ribeiro de Brito, Rua;E/Git;Veicular;N;N;-8.123574;-34.899789
+156;José Rufino, Av. Dr.;E/F ao Colégio Castelo Branco;E;Ocasional/Ped.;N;N;-8.091613;-34.949282
+157;Aprígio Guimarães, Rua;Paulino de Farias, Rua;E;Veicular;N;N;-8.087130;-34.965563
+158;Visconde de Jequitinhonha, Av.;Mário de Castro, Rua Prof.;E/Git;Veicular;N;N;-8.136528;-34.903513
+159;Barão de Souza Leão, Rua;Sá e Souza, Rua;E/Git;Veic.C/Ped.Ocas.;N;N;-8.132055;-34.906769
+160;dos Navegantes, Rua;Bruno Veloso, Rua;E/Git;Veic.C/Ped.Ocas.;S;N;-8.121887;-34.896770
+161;Mascarenhas de Morais, Av.;Jean Emile de Favre, Rua;E/Git;Ocasional/Ped.;S;N;-8.106314;-34.911444
+162;Conde da Boa Vista, Av.;Aurora, Rua da;E/Git;Veic.C/Ped.;S;N;-8.062052;-34.881642
+163;Dantas Barreto, Av.;Nova, Rua;E/Git;Pedestre;N;N;-8.064378;-34.878424
+164;Martins de Barros, Av.;República, Pca. da;E;Veicular;N;N;-8.061638;-34.876530
+165;Apolo, Cais do;Marquez de Olinda, Av.;E/Git;Veicular;N;N;-8.063737;-34.874422
+166;Espinheiro, Rua do;48, Rua;E/Git;Veicular;N;N;-8.042306;-34.892561
+167;Princesa Isabel, Rua;União, Rua da;E/Git;Pedestre;N;N;-8.059131;-34.880605
+168;Princesa Isabel, Rua;Saudade, Rua da;E/Git;Veicular;N;N;-8.058763;-34.881174
+169;Manoel Borba, Av.;Gervásio Pires, Rua;E/Git;Veicular;N;N;-8.061105;-34.887367
+170;Príncipe, Rua do;E/F à UNICAP;E;Ocasional/Ped.;S;N;-8.055811;-34.887862
+171;Cruz Cabugá, Av.;Mário Melo, Av.;E/Git;Veicular;N;S;-8.053960;-34.881592
+172;Visconde de Suassuna, Av.;13 de Maio, Rua;E/Git;Veicular;N;N;-8.053806;-34.884457
+173;Agamenon Magalhães, Av. Gov.;Bandeira Filho, Rua Dr.;E/Git;Veicular;N;N;-8.051467;-34.895077
+174;Agamenon Magalhães, Av. Gov.;Dom Bosco, Rua;E/Git;Veicular;N;N;-8.053390;-34.896415
+175;Riachuelo, Rua do;Gervásio Pires, Rua;E/Git;Veicular;N;N;-8.058313;-34.885652
+176;Príncipe, Rua do;Bispo Cardoso Aires, Rua;E/Git;Veicular;N;N;-8.056649;-34.886316
+177;Amélia, Rua;Futuro, Rua do;E/Git;Veicular;N;S;-8.045157;-34.898335
+178;Amélia, Rua;Antônio Novaes, Rua;E/Git;Ocasional/Ped.;N;N;-8.044977;-34.900298
+179;José Osório, Rua;Real da Torre, Rua;E/Git;Veicular;N;N;-8.053547;-34.908646
+180;Concórdia, Rua da;São João, Rua de;E/Git;Veicular;N;N;-8.069743;-34.882977
+181;Dantas Barreto, Av.;Peixoto, Rua do;E/Git;Veicular;N;N;-8.071401;-34.883221
+182;Concórdia, Rua da;Peixoto, Rua do;E/Git;Veicular;N;N;-8.070961;-34.883875
+183;Fernando Simões Barbosa, Av.;Jack Aires, Rua;E/Git;Veic.C/Ped.Ocas.;N;N;-8.119451;-34.901152
+184;Barão de Itamaracá, Rua;Hora, Rua da;E/Git;Veicular;N;N;-8.043834;-34.892819
+185;Gal. San Martin, Av.;Próx. Clotilde de Oliveira, Rua;E;Ocasional/Ped.;N;N;-8.052688;-34.922385
+186;Beberibe, Av.;Coragem, Rua da;E/Git;Veicular;N;N;-8.036111;-34.891244
+187;Beberibe, Av.;Regeneração, Rua da;E;Veicular;N;N;-8.018510;-34.893277
+188;Santos Dumont, Av.;Futuro, Rua do;E/Git;Veicular;N;N;-8.040902;-34.900096
+189;Dom Manoel de Medeiros, Rua;E/F ao LAFEPE;E;Ocasional/Ped.;S;N;-8.015859;-34.943677
+190;Boa Viagem, Av.;Frei Leandro Camelo, Rua;E/Git;Ocasional/Ped.;N;S;-8.146655;-34.905891
+191;José Bonifácio, Rua;Conde de Irajá, Rua;E/Git;Veicular;N;N;-8.046004;-34.907050
+192;Real da Torre, Rua;D. Manoel da Costa, Rua;E/Git;Veicular;N;N;-8.047506;-34.909150
+193;José Bonifácio, Rua;Padre Anchieta, Rua;E/Git;Veicular;N;N;-8.047199;-34.906653
+194;Martins de Barros, Av.;1º de Março, Rua;E/Git;Veicular;N;N;-8.064105;-34.876370
+195;Amélia, Rua;Espinheiro, Rua do;E/Git;Veicular;N;N;-8.045854;-34.895336
+196;Alfredo Lisboa, Av.;Vital de Oliveira, Rua;E;Ocasional/Ped.;S;N;-8.060701;-34.870413
+197;Sol, Rua do;E/F ao Liceu de Artes de PE;E;Ocasional/Ped.;N;N;-8.061107;-34.879324
+198;João de Barros, Av.;E/F ao Conservatório Pernam. de Música;E;Ocasional/Ped.;N;N;-8.049146;-34.889967
+199;São João, Rua de;Forte, Rua do;E;Ocasional/Ped.;S;N;-8.071040;-34.880820
+200;Domingos Ferreira, Av.;Thomé Gibson, Rua;E/Git;Veicular;N;N;-8.098758;-34.886600
+201;Belém, Estrada de;Antônio Rangel, Rua;E;Veicular;N;N;-8.035682;-34.888540
+202;Cruz Cabugá, Av.;Dna. Maria de Souza, Rua;E/Git;Veic.C/Ped.Ocas.;N;N;-8.040833;-34.872134
+203;Nossa Senhora do Carmo, Av.;Imperador, Rua do;E/Git;Veic.C/Ped.Ocas.;N;N;-8.066141;-34.876680
+204;Nossa Senhora do Carmo, Av.;Martins de Barros, Av.;E/Git;Veicular;N;N;-8.066107;-34.876245
+205;Sul, Av. (Pista principal);Ante do Viaduto Joana Bezerra;E/Git;Ocasional/Ped.;N;N;-8.076835;-34.894778
+206;Imperador, Rua do;Siqueira Campos, Rua;E/Git;Veicular;N;N;-8.062875;-34.876975
+207;Imperial, Rua;Peixoto, Rua do;E/Git;Veicular;N;N;-8.071997;-34.882352
+208;José Rufino, Av. Dr.;Itaenga, Rua;E;Veic.C/Ped.Ocas.;N;N;-8.090837;-34.951214
+209;José Mariano, Rua Dr.;Velha, Rua;E;Veicular;N;N;-8.064781;-34.885037
+210;Aurora, Rua da;Imperatriz, Rua da;E/Git;Pedestre;S;N;-8.063454;-34.882531
+211;Sul, Av. (corredor de ônibus);Ante do Viaduto Joana Bezerra;E/Git;Ocasional/Ped.;N;N;-8.076928;-34.894710
+212;Recife, Av.;E/F ao Hotel Reprise;E/Git;Ocasional/Ped.;N;N;-8.103840;-34.927694
+213;José Rufino, Av. Dr.;Domingos Teotônio, Rua;E;Ocasional/Ped.;N;N;-8.092925;-34.941609
+214;Conselheiro Rosa e Silva, Av.;Malaquias, Av. Dr.;E/Git;Veicular;N;N;-8.038142;-34.900583
+215;Futuro, Rua do;Malaquias, Av. Dr.;E/Git;Veicular;N;N;-8.038757;-34.901782
+216;Domingos Ferreira, Av.;Padre Carapuceiro, Rua;E/Git;Veicular;N;N;-8.119076;-34.897531
+217;Domingos Ferreira, Av.;Ernesto de Paula Santos, Rua;E/Git;Veicular;N;N;-8.124700;-34.900211
+218;Mascarenhas de Morais, Av.;Barão de Souza Leão, Rua;E;Ocasional/Ped.;N;N;-8.132591;-34.916230
+219;Odete Monteiro, Rua;E/F a Escola Munic. Darcy Ribeiro;E;Ocasional/Ped.;N;N;-8.045980;-34.920842
+220;Manoel Borba, Av.;Soledade, Rua da;E/Git;Veicular;N;S;-8.059565;-34.890071
+221;Gervásio Pires, Rua;Barão de São Borja, Rua;E/Git;Veicular;N;N;-8.062029;-34.887929
+222;Soledade, Rua da;Oliveira Lima, Rua;E/Git;Veicular;N;N;-8.056245;-34.889896
+223;Padre Roma, Rua;Futuro, Rua do;E/Git;Veic.C/Ped.;N;N;-8.033814;-34.905615
+224;Dom Manoel de Medeiros, Rua;E/F a entrada da UFRPE;E;Ocasional/Ped.;N;N;-8.016905;-34.951408
+225;Mascarenhas de Morais, Av.;General Mac. Arthur, Av.;E/Git;Veic.C/Ped.;N;N;-8.108870;-34.911830
+226;Antônio de Góis, Av.;Cons. Aguiar, Av.;E/Git;Veicular;N;S;-8.089550;-34.882736
+227;Antônio Falcão, Rua;Francisco da Cunha, Rua;E/Git;Veicular;N;N;-8.115157;-34.896684
+228;Caxangá, Av.;Est BRT Engenho Poeta (Sub/Cid);E/Git;Ocasional/Ped.;N;N;-8.034520;-34.950005
+229;Caxangá, Av.;São Mateus, Rua;E/Git;Veicular;N;N;-8.041579;-34.937045
+230;Caxangá, Av.;Chaves Batista, Rua Prof.;E/Git;Veicular;N;N;-8.037541;-34.944343
+231;Caxangá, Av.;General Polidoro, Rua;E/Git;Veicular;N;N;-8.036979;-34.945456
+232;Caxangá, Av.;Rodrigues Ferreira, Rua;E/Git;Veicular;N;N;-8.032096;-34.954246
+233;Carlos Gomes, Rua;Bongi, Estrada do;E/Git;Veicular;N;N;-8.066040;-34.914151
+234;Caxangá, Av.;Inácio Monteiro, Rua;E/Git;Veicular;N;N;-8.045539;-34.929875
+235;Caxangá, Av.;Cláudio Brotherhood, Rua;E/Git;Veicular;N;N;-8.046686;-34.927879
+236;Caxangá, Av.;Gregório Jr., Rua;E/Git;Veicular;N;N;-8.051658;-34.918898
+237;Real da Torre, Rua;Ao Colégio Joaquim Távora, Em frente;E/Git;Ocasional/Ped.;N;N;-8.055776;-34.909047
+238;Beberibe, Av.;Frederico, Rua;E/Git;Veicular;N;N;-8.034461;-34.891581
+239;São Mateus, Rua;Maurício de Nassau, Av.;E;Veic.C/Ped.Ocas.;N;N;-8.036687;-34.935337
+240;Conselheiro Aguiar, Av.;Frei Leandro, Rua;E/Git;Ocasional/Ped.;N;N;-8.102537;-34.887433
+241;Conselheiro Aguiar, Av.;Des. João Paes, Rua;E/Git;Ocasional/Ped.;N;N;-8.126841;-34.899838
+242;Remédios, Estrada dos;Nicolau Pereira, Rua;E;Veicular;N;N;-8.075989;-34.907286
+243;Norte Miguel Arraes de Alencar, Av.;Aurora, Rua da (Ponte Limoeiro);E/Git;Veicular;N;N;-8.049989;-34.873799
+244;Visconde de Suassuna, Av.;Gervásio Pires, Rua;E/Git;Veicular;N;N;-8.054486;-34.883273
+245;21 de Abril, Rua;Manoel Gonçalves da Luz, Av.;E;Veic.C/Ped.;N;S;-8.075102;-34.918391
+246;Barbalho, Estrada do;Maurício de Nassau, Av.;E;Veic.C/Ped.Ocas.;N;N;-8.035471;-34.939850
+247;Recife, Av.;Raimundo Diniz, Rua;E/Git;Veicular;N;N;-8.116248;-34.923724
+248;Dois Irmãos, Av.;E/F à Fundação Joaquim Nabuco;E;Ocasional/Ped.;S;N;-8.020731;-34.935794
+249;Forte, Av. do;Gomes Taborda, Rua;E;Veic.C/Ped.;N;S;-8.053507;-34.928933
+250;João Cabral de Melo Neto, Av.;Tenente Mindelo, Rua;;;;;-8.075063;-34.930292
+251;17 de Agosto, Av.;Piaui, Rua;E;Ocasional/Ped.;S;N;-8.029358;-34.925824
+252;Dom Manoel da Costa, Rua;Padre Landim, Rua;E;Ocasional/Ped.;N;N;-8.047935;-34.912448
+253;Conselheiro Rosa e Silva, Av.;José Maria, Rua Dr.;E/Git;Veicular;N;N;-8.034683;-34.902533
+254;Bom Pastor, Rua do;Comendador A. de Carvalho, Rua;E;Veicular;N;N;-8.041855;-34.938849
+255;Cais da Alfândega;Em frente ao Shopping;E;Ocasional/Ped.;S;N;-8.065063;-34.874110
+256;Norte Miguel Arraes de Alencar, Av.;Em frente a Mat. Barros Lima;E/Git;Ocasional/Ped.;N;N;-8.020638;-34.923509
+257;Benfica, Rua;Real da Torre, Rua;E/Git;Ocasional/Ped.;N;N;-8.057092;-34.909243
+258;Visconde de Jequitinhonha, Av.;Armindo Moura, Av.;E/Git;Veicular;N;N;-8.150556;-34.909229
+259;Recife, Av.;Alberto Pasqualine, Rua Senador;E/Git;Veicular;N;N;-8.079617;-34.933912
+260;Sul, Av.;Nova da Cabanga, Rua;E/Git;Veicular;N;N;-8.077861;-34.897881
+261;Recife, Av.;Nossa Senhora de Fátima, Rua;E/Git;Veic.C/Ped.Ocas.;N;N;-8.082634;-34.932978
+262;Caxangá, Av.;Caxangá, Pça. do;E/Git;Veicular;N;N;-8.031644;-34.954884
+263;Caxangá, Av.;Estação BRT Túnel da Abolição (Cid/Sub);E/Git;Ocasional/Ped.;N;N;-8.056418;-34.910079
+264;Caxangá, Av.;Estação BRT Túnel da Abolição (Sub/Cid);E/Git;Ocasional/Ped.;N;N;-8.056584;-34.910117
+265;Caxangá, Av.;Estação BRT Getulio Vargas (Cid/Sub);E/Git;Ocasional/Ped.;N;N;-8.050146;-34.921422
+266;Caxangá, Av.;Estação BRT Getulio Vargas (Sub/Cid);E/Git;Pedestre;N;N;-8.050299;-34.921551
+267;Caxangá, Av.;Estação BRT Forte do Arraial (Cid/Sub);E/Git;Ocasional/Ped.;N;N;-8.048130;-34.925055
+268;Caxangá, Av.;Estação BRT Forte do Arraial (Sub/Cid);E/Git;Ocasional/Ped.;N;N;-8.048288;-34.925162
+269;Caxangá, Av.;Estação BRT  BR 101 (Cid/Sub);E/Git;Ocasional/Ped.;N;N;-8.038388;-34.942657
+270;Caxangá, Av.;Estação BRT  BR 101 (Sub/Cid);E/Git;Ocasional/Ped.;N;N;-8.038523;-34.942786
+271;Abdias de Carvalho, Av.;Próximo a UPA - Torrões (Cid/Sub);E/Git;Ocasional/Ped.;N;N;-8.063964;-34.935793
+272;Abdias de Carvalho, Av.;Próximo a UPA - Torrões (Sub/Cid);E/Git;Ocasional/Ped.;N;N;-8.064074;-34.935713
+273;Caxangá, Av.;Estação BRT - Zumbi (Cid/Sub);E/Git;Ocasional/Ped.;N;N;-8.053311;-34.915731
+274;Caxangá, Av.;Estação BRT - Zumbi (Sub/Cid);E/Git;Ocasional/Ped.;N;N;-8.053461;-34.915814
+275;Caxangá, Av.;Estação BRT Parque do Cordeiro (Cid/Sub);E/Git;Ocasional/Ped.;N;N;-8.046260;-34.928452
+276;Mascarenhas de Morais, Av.;UPA da Imbiribeira CID/SUB, Em frente a;E/Git;Ocasional/Ped.;N;N;-8.120813;-34.914266
+277;Antônio de Góis, Av.;Miranda Falcão, Rua;E/Git;Pedestre;N;N;-8.087743;-34.884504
+278;República, Pça. da;Imperador, Rua do;E;Ocasional/Ped.;N;N;-8.061501;-34.877182
+279;Mascarenhas de Morais, Av.;Álvaro Amorim, Rua;E/Git;Veic.C/Ped.Paral.;N;N;-8.086972;-34.907580
+280;Tomás Gonzaga, Rua;Profº.Estevão Fran. da Costa, Rua;E;Veicular;N;N;-8.048433;-34.919173
+281;Joaquim Ribeiro, Av.;Ribeiro Pessoa, Rua;E/Git;Veicular;N;N;-8.030013;-34.958002
+282;Jerônimo Vilela, Rua;Franklin Távora, Rua;E;Veicular;N;N;-8.028109;-34.882152
+283;Arraial, Estrada do;Paula Batista, Rua;E/Git;Veicular;N;N;-8.026721;-34.916176
+284;Nossa Senhora do Carmo, Av.;Dantas Barreto, Av.;E/Git;Veic.C/Ped.;N;N;-8.065891;-34.879036
+285;Falcão de Lacerda, Rua;15 de Novembro, Rua;E;Veicular;N;N;-8.092065;-34.961480
+286;Mascarenhas de Morais, Av.;Arquiteto Fernando Almeida, Rua;E/Git;Veicular;N;N;-8.088045;-34.907803
+287;Mascarenhas de Morais, Av.;Missionário Joel Carlson, Rua;E/Git;Veic.C/Ped.Ocas.;S;N;-8.096481;-34.909728
+288;Mascarenhas de Morais, Av.;Alves de Souza, Rua Engº.;E/Git;Veicular;N;N;-8.098453;-34.910102
+289;Mascarenhas de Morais, Av.;Dr. Tavares Correia, Rua;E/Git;Veic.C/Ped.Ocas.;N;N;-8.115595;-34.913309
+290;Mascarenhas de Morais, Av.;Jornalista Cleóphas de Oliveira, Rua;E/Git;Veicular;N;N;-8.116233;-34.913346
+291;Arraial, Estrada do;E/F ao Colégio Dom Bosco;E/Git;Ocasional/Ped.;N;N;-8.028431;-34.910696
+292;Rui Barbosa, Av.;Malaquias, Av. Dr.;E/Git;Veicular;N;S;-8.039897;-34.904022
+293;Pintor Antonio de Albuquerque, Rua;	Hélio Brandão, RUA;;;;;-8.107744;-34.925727
+294;Dom Bosco, Rua;Henrique Dias, Rua;E/Git;Veicular;N;N;-8.058036;-34.894590
+295;Arraial, Estrada do;Desemb. Góis Cavalcante, Rua;E/Git;Ocasional/Ped.;N;N;-8.030112;-34.907056
+296;Norte Miguel Arraes de Alencar, Av.;Maria Candida Rua;E/Git;Veicular;N;N;-8.012567;-34.931804
+297;Domingos Ferreira, Av.;Gilson M. Guimarães (antigo SUPERBOX);E/Git;Veic.C/Ped.Paral.;N;N;-8.105434;-34.889648
+298;Ribeiro de Brito, Rua;Visconde de Jequitinhonha, Rua;E/Git;Veicular;N;N;-8.122987;-34.903879
+299;Conde da Boa Vista, Av.;Osvaldo Cruz, Rua;E/Git;Veicular;N;N;-8.056664;-34.892671
+300;São Miguel, Rua;Amauri Medeiros, Em frente à Esc.;E/Git;Ocasional/Ped.;N;N;-8.080315;-34.908269
+301;José Bonifácio, Rua;Vitoriano Palhares, Rua;E/Git;Veicular;N;N;-8.043492;-34.907912
+302;Imperial, Rua;E/F à Escola Joaquim Nabuco;E/Git;Ocasional/Ped.;N;N;-8.075855;-34.894062
+303;Domingos Ferreira, Av.;Adeth Leite, Rua;E/Git;Veicular;N;N;-8.101935;-34.888044
+304;Ernesto de Paula Santos, Rua;Visconde de Jequitinhonha, Rua;E/Git;Veicular;N;N;-8.124081;-34.903819
+305;Rui Barbosa, Av.;Alberto Paiva, Rua;E/Git;Veicular;N;S;-8.043981;-34.902188
+306;Velha de Água Fria, Estrada;José dos Anjos, Rua Prof.;E;Veicular;N;N;-8.026749;-34.897962
+307;Beberibe, Av.;Urbano de Sena, Rua Cel.;E;Veic.C/Ped.Ocas.;N;N;-8.015017;-34.890140
+308;João Lira, Rua;Saudade, Rua da;E/Git;Veicular;N;N;-8.056601;-34.879851
+309;Conselheiro Rosa e Silva, Av.;E/F ao Hospital do IPSEP;E/Git;Ocasional/Ped.;N;N;-8.047866;-34.896847
+310;Mascarenhas de Morais, Av.;UPA da Imbiribeira SUB/CID, Em frente a;E/Git;Ocasional/Ped.;N;N;-8.120907;-34.914121
+311;Sul, Av.;Sérgio Loreto, Praça;E/Git;Veicular;N;N;-8.073372;-34.885191
+312;Norte Miguel Arraes de Alencar, Av.;Harmonia, Rua da;E/Git;Veicular;N;N;-8.023829;-34.912528
+313;21 de Abril, Rua;Antônio Farias, Em frente à Escola;E;Ocasional/Ped.;N;N;-8.072345;-34.925366
+314;Beberibe, Av.;Inácio Gomes, Rua Expedicionário;E;Ocasional/Ped.;N;N;-8.004794;-34.893625
+315;São Nicolau, Rua;Abdias Cabral De Moura, Rua;;;;;-8.106877;-34.926670
+316;Mascarenhas de Morais, Av.;Semáforo Nº 279, Ao lado;E/Git;Ocasional/Ped.;N;N;-8.087051;-34.907504
+317;Souza Bandeira, Rua;Marquês de Maricá, Rua;E;Veicular;N;N;-8.047588;-34.917384
+318;Conselheiro Aguiar, Av.;Sérgio Cardim, Rua Cel.;E/Git;Veicular;N;N;-8.130807;-34.901285
+319;Recife, Av.;Robert Kennedy, Av. Senador;E/Git;Veicular;N;N;-8.119429;-34.920891
+320;Sul, Av.;Ponte dos Afogados;E/Git;Veicular;N;N;-8.079511;-34.902473
+321;Padre Carapuceiro, Rua;Fernando Simões Barbosa, Av.;E/Git;Veicular;N;N;-8.117528;-34.900801
+322;Dez de Julho, Rua;Estação Metrô Aeroporto, E/F;E/Git;Ocasional/Ped.;N;N;-8.134524;-34.914772
+323;Dois Rios, Av.;Fernando Tomaz da Silva, Próx. a Rua;E/Git;Veic.C/Ped.Ocas.;S;N;-8.116596;-34.941130
+324;Domingos Ferreira, Av.;Antônio Pedro Figueiredo, Rua;E/Git;Veicular;N;N;-8.099950;-34.887130
+325;Dois Rios, Av.;Rio Pajeú, Próx. a Rua;E/Git;Ocasional/Ped.;N;N;-8.113534;-34.938989
+326;San Martin, Av. Gal.;Delmiro Gouveia, Rua;E/Git;Veic.C/Ped.;S;S;-8.065287;-34.927227
+327;Abdias de Carvalho, Av.;Em frente a Estácio - Sub/Cid.;E;Ocasional/Ped.;S;N;-8.062513;-34.917033
+328;Abdias de Carvalho, Av.;Em frente à FIR - Cid/Sub.;E;Ocasional/Ped.;S;N;-8.062363;-34.917038
+329;Ernesto de Paula Santos, Rua;Fernando Simões Barbosa, Av.;E/Git;Veicular;N;N;-8.124460;-34.901516
+330;Ernesto de Paula Santos, Rua;Domingos de Brito, Rua Ten.;E/Git;Veicular;N;N;-8.124127;-34.905228
+331;Ribeiro de Brito, Rua;Domingos de Brito, Rua Ten.;E/Git;Veicular;N;N;-8.122961;-34.905213
+332;Ribeiro de Brito, Rua;Fernando Simões Barbosa, Av.;E/Git;Veicular;N;N;-8.123331;-34.901447
+333;São Miguel, Rua;Santos Araújo, Rua;E/Git;Veicular;N;N;-8.080316;-34.909456
+334;21 de Abril, Rua;Cosme Viana, Rua;E/Git;Veic.C/Ped.;N;S;-8.076993;-34.909194
+335;Fernando Simões Barbosa, Av.;Bruno Veloso, Rua;E/Git;Veicular;N;N;-8.121371;-34.901309
+336;Recife, Av.;E/F ao Hospital Geral de Areias;E/Git;Ocasional/Ped.;N;N;-8.100611;-34.928171
+337;Recife, Av.;E/F ao antigo BOMPREÇO;E/Git;Ocasional/Ped.;N;N;-8.112517;-34.926508
+338;Domingos Ferreira, Av.;Bruno Veloso, Rua;E/Git;Veicular;N;N;-8.121631;-34.899050
+339;João de Barros, Av.;Paraná, Próximo a Rua Marquês do;E/Git;Ocasional/Ped.;N;N;-8.042850;-34.890702
+340;Apolo, Cais do;E/F à Prefeitura do Recife;E/Git;Ocasional/Ped.;S;N;-8.054344;-34.871957
+341;Jerônimo Vilela, Rua;Baiapendi, Rua Marquês de;E;Veic.C/Ped.Ocas.;N;N;-8.025460;-34.882737
+342;Cônego Barata, Rua;Em frente a APAE;E/Git;Ocasional/Ped.;S;N;-8.032146;-34.902614
+343;Cruz Cabugá, Av.;Jaime da Fonte, Av.;E/Git;Veicular;N;N;-8.044646;-34.874888
+344;Cruz Cabugá, Av.;Beco do Tramways;E/Git;Veicular;N;N;-8.043294;-34.873933
+345;17 de Agosto, Av.;Lemos Torres, Rua;E/Git;Veic.C/Ped.Ocas.;S;N;-8.036436;-34.913909
+346;17 de Agosto, Av.;Leonardo Cavalcanti, Rua;E/Git;Veicular;N;N;-8.037138;-34.914591
+347;Cônego Barata, Rua;Em frente ao Hospital Ulisses Pernambucano;E/Git;Ocasional/Ped.;S;N;-8.032199;-34.902509
+348;Carlos Gomes, Rua;Gomes Taborda, Rua;E/Git;Veicular;N;N;-8.059004;-34.911957
+349;Agamenon Magalhães, Av. Gov.;Em frente ao Real Hosp. Português;E/Git;Ocasional/Ped.;N;N;-8.063700;-34.897595
+350;Agamenon Magalhães, Av. Gov.;Em frente ao Real Hosp. Português;E/Git;Ocasional/Ped.;N;N;-8.063725;-34.897695
+351;Dois Rios, Av.;Rio Xingú, Rua;E/Git;Veicular;N;N;-8.117766;-34.941927
+352;Imperial, Rua;Cabo Eutrópio, Rua;E;Veic.C/Ped.Paral.;N;N;-8.077527;-34.899322
+353;José Gonçalves de Medeiros, Rua;Estrada dos Remédios;E/Git;Veicular;N;N;-8.058948;-34.907222
+354;Abdias de Carvalho, Av.;Santa Edwirgens, Rua;E/Git;Veicular;N;N;-8.062577;-34.911677
+355;Abdias de Carvalho, Av.;Tabaiares, Rua (Girador do Sport);E/Git;Veicular;N;S;-8.061118;-34.904854
+356;João de Barros, Av.;Visconde de Suassuna, Av.;E;Veicular;N;N;-8.050213;-34.889948
+357;Odorico Mendes, Rua;Francisco Trindade, Rua Prof.;E;Veicular;N;N;-8.035389;-34.880524
+358;Parnamirim, Pça.;Encanamento, Estrada do;E/Git;Veicular;N;N;-8.033040;-34.910404
+359;Coelhos, Rua dos;E/F ao IMIP;E;Ocasional/Ped.;N;N;-8.066612;-34.889726
+360;Alberto Paiva, Rua;Antônio Novaes, Rua;E/Git;Veicular;N;N;-8.043870;-34.900388
+361;Hora, Rua da;Amélia, Rua (J. L. Silveira);E/Git;Veicular;N;N;-8.046217;-34.894335
+362;Regueira Costa, Rua;José Maria, Rua Dr.;E/Git;Veicular;N;N;-8.035400;-34.898450
+363;Moças, Rua das;Constância, Rua;E;Veicular;N;N;-8.016591;-34.883967
+364;Norte Miguel Arraes de Alencar, Av.;José dos Anjos, Rua Prof.;E/Git;Veicular;N;N;-8.026245;-34.905490
+365;João de Barros, Av.;Joaquim Felipe, Rua;E;Veicular;N;N;-8.053189;-34.889967
+366;Conselheiro Aguiar, Av.;França Pereira, Rua;E/Git;Ocasional/Ped.;N;N;-8.106144;-34.889082
+367;Sport Club do Recife, Rua;E/F ao Sport Clube do Recife;E/Git;Ocasional/Ped.;N;N;-8.061304;-34.903875
+368;Joaquim Ribeiro, Av.;Francisco Torres, Rua;E/Git;Veicular;N;N;-8.030295;-34.957363
+369;Padre Lemos, Rua;Em frente aos CORREIOS;E;Ocasional/Ped.;N;N;-8.022337;-34.919695
+370;17 de Agosto, Av.;Monteiro, Pça. do;E/Git;Ocasional/Ped.;N;N;-8.027749;-34.928219
+371;San Martin, Av. Gal.;Sigismundo Cabral de Melo, Próximo a Rua;E;Ocasional/Ped.;N;N;-8.073416;-34.929589
+372;17 de Agosto, Av.;Casa Forte, Pça. de;E/Git;Veic.C/Ped.Ocas.;N;N;-8.035731;-34.920195
+373;Joaquim Inácio, Av. Gal.;Frei Matias Teves, Av.;E/Git;Veicular;N;S;-8.062569;-34.896540
+374;Luiz Freire, Av. Professor;Em frente à CEFET;E;Ocasional/Ped.;N;N;-8.058509;-34.949579
+375;Abdias de Carvalho, Av.;Forte, Av. do;E/Git;Veic.C/Ped.;N;S;-8.062545;-34.932194
+376;Norte Miguel Arraes de Alencar, Av.;Guadalupe, Rua;E/Git;Veicular;N;N;-8.040395;-34.886885
+377;Marechal Deodoro, Rua;Castro Alves, Rua;E/Git;Veicular;N;N;-8.039653;-34.887309
+378;Agamenon Magalhães, Av. Gov.;E/F ao Nº 674, (Sentido Olinda);E/Git;Ocasional/Ped.;N;N;-8.041235;-34.881592
+379;Agamenon Magalhães, Av. Gov.;Ed.Visgueiro Nº1330, E/F ao;E/Git;Ocasional/Ped.;N;N;-8.040896;-34.881825
+380;Domingos Ferreira, Av.;Artur Muniz, Rua;E/Git;Veicular;N;N;-8.105440;-34.889651
+381;Dantas Barreto, Av.;Tobias Barreto, Rua (Pista Leste);E/Git;Ocasional/Ped.;N;N;-8.067750;-34.880055
+382;Dantas Barreto, Av.;Tobias Barreto, Rua;E/Git;Veicular;N;N;-8.067598;-34.880289
+383;Santa Rita, Cais de;Martins de Barros, Av.;E/Git;Veicular;N;N;-8.067341;-34.875618
+384;Dantas Barreto, Av.;Passo da Pátria, Rua (Central);E/Git;Ocasional/Ped.;N;N;-8.069285;-34.881638
+385;Mascarenhas de Morais, Av.;Muritiba, Rua;E/Git;Veicular;N;N;-8.112542;-34.912620
+386;Mascarenhas de Morais, Av.;Itacaré, Rua;E/Git;Veic.C/Ped.Ocas.;N;N;-8.111426;-34.912393
+387;Beira Rio, Av.;José Osório, Rua;E/Git;Veic.C/Ped.;N;N;-8.053042;-34.904730
+388;Beberibe, Av.;Cidade do Monteiro, Av.;E;Veicular;N;N;-8.009337;-34.889131
+389;17 de Agosto, Av.;E/F ao C.P.O.R.;E/Git;Veic.c/Ped.Ocas.;N;N;-8.037942;-34.918009
+390;Remédios, Estrada dos;Tabaiares, Rua;E/Git;Veic.C/Ped.Paral.;S;N;-8.065242;-34.908034
+391;São Miguel, Rua;E/F ao Colégio Pan Americano;E;Ocasional/Ped.;N;N;-8.080499;-34.912906
+392;São Miguel, Rua;Troley, Rua do;E;Ocasional/Ped.;N;N;-8.080911;-34.919408
+393;Recife, Av.;Gonçalves Magalhães, Rua;E/Git;Veicular;N;N;-8.120308;-34.919456
+394;Bongi, Estrada Velha do;Remédios, Estrada dos;E;Veic.C/Ped.Paral.;N;N;-8.068958;-34.908466
+395;Lindolfo Collor, Rua;Antônio Curado, Rua;E;Veicular;N;N;-8.052412;-34.941340
+396;Olívia Menelau, Rua;Mascarenhas de Morais, Av.;E/Git;Veicular;N;N;-8.091147;-34.908513
+397;Norte Miguel Arraes de Alencar, Av.;Em frente ao Nº 886;E/Git;Ocasional/Ped.;N;N;-8.044930;-34.880372
+398;Beberibe, Av.;Em frente ao Nº 4510;E;Ocasional/Ped.;N;N;-8.004310;-34.896800
+399;Arquiteto Luis Nunes, Rua;Álvaro Amorim, Rua;E/Git;Ocasional/Ped.;N;N;-8.086460;-34.909649
+400;Desembargador José Neves, Av.;Aproximação Da Entrada Do Túnel Augusto Lucena No Sentido Cidsub;;;;;-8.121305;-34.909783
+401;Dom Bosco, Rua;Batalhão da Rádio Patrulha, Em frente ao;E/Git;Ocasional/Ped.;N;N;-8.057437;-34.894809
+402;Mac. Arthur, Av. Gal.;Jorge de Lima, Rua;E/Git;Ocasional/Ped.;N;N;-8.109790;-34.907568
+403;San Martin, Av. Gal.;CORREIOS, Em frente aos;E;Ocasional/Ped.;N;N;-8.058427;-34.925094
+404;Arraial, Estrada do;Padre Lemos, Rua;E/Git;Veic.c/Ped.Ocas.;S;N;-8.026759;-34.917731
+405;Beberibe, Av.;Júlio Ramos, Rua;E;Veic.c/Ped.Ocas.;N;N;-8.019664;-34.894550
+406;Futuro, Rua do;Em frente ao Parque da Jaqueira;E/Git;Ocasional/Ped.;N;N;-8.036082;-34.903974
+407;Barão de Souza Leão, Rua;Santos Dumont, Em frente ao Colégio;E/Git;Ocasional/Ped.;S;N;-8.132167;-34.907281
+408;Concórdia, Rua da;Sérgio Loreto, Rua;E/Git;Veicular;N;N;-8.071999;-34.884642
+409;Conde de Irajá, Rua;Torre, Pça. da;E;Ocasional/Ped.;S;N;-8.047001;-34.913636
+410;17 de Agosto, Av.;E/F ao Colégio Mater Christi;E;Ocasional/Ped.;N;N;-8.032824;-34.923126
+411;Falcão de Lacerda, Rua;E/F ao Colégio Barão de Rio Branco;E;Ocasional/Ped.;N;N;-8.091702;-34.960211
+412;João de Barros, Av.;Dom Vital, Rua;E/GIT;Ocasional/Ped.;N;N;-8.046496;-34.889856
+413;Visconde de Albuquerque, Av.;Hospial D'Ávila, Em frente ao;E/Git;Ocasional/Ped.;N;N;-8.052039;-34.906643
+414;Imperial, Rua;Em frente ao Nº 363;E/Git;Pedestre;N;N;-8.071947;-34.882129
+415;17 de Agosto, Av.;Virgínia Loreto, Rua;E/Git;Ocasional/Ped.;N;N;-8.034731;-34.911633
+416;Dois Irmãos, Av.;BR-101;E/Git;Veicular;N;N;-8.016837;-34.940941
+417;Agamenon Magalhães, Av. Gov.;Derby, Pça. (pista Sul);E/Git;Veicular;N;N;-8.057480;-34.898221
+418;Derby, Pça. (pista Sul);Jenner de Souza, Rua;E/Git;Veicular;N;N;-8.057518;-34.900070
+419;Conselheiro Aguiar, Av.;Barão de Souza Leão, Rua;E/Git;Veicular;N;N;-8.132069;-34.901564
+420;Capitão Zuzinha, Rua;Sá e Souza, Rua;E/GIt;Veicular;N;N;-8.134801;-34.906262
+421;Arraial, Estrada do;Sebastião Alves, Próximo a Rua;E/Git;Veic.C/Ped.Paral.;N;N;-8.031005;-34.905445
+422;Abdias de Carvalho, Av.;15 de Março, Rua;E/Git;Veicular;N;N;-8.061639;-34.930046
+423;São Miguel, Rua;Odilon Tucuman, Rua;E;Ocasional/Ped.;N;N;-8.080699;-34.914588
+424;Norte Miguel Arraes de Alencar, Av.;Bujarú, Rua;E;Ocasional/Ped.;N;N;-8.018246;-34.928354
+425;São Miguel, Rua;Em frente ao Nº 1808;E;Ocasional/Ped.;N;N;-8.081510;-34.922600
+426;Cosme Viana, Rua;Doutor Adelino, Rua;E/Git;Veicular;N;N;-8.075838;-34.909021
+427;Treze De Maio, Rua;Pedro Afonso, Rua;;;;;-8.049454;-34.881627
+428;13 de Maio, Rua;Da Saudade, Av.;E/Git;Veicular;N;N;-8.051091;-34.882771
+429;Aurora, Rua da;Mamede Simões, Rua;E;Ocasional/Ped.;N;N;-8.058434;-34.879286
+430;Cosme Viana, Rua;Alfredo Duarte, Rua Cel.;E/Git;Veicular;N;N;-8.071477;-34.909389
+431;Alegre, Rua;Zeferino Agra, Rua;E;Ocasional/Ped.;N;N;-8.021129;-34.893056
+432;Guilherme Pinto, Rua;E/F ao Instituto dos Cegos;E/Git;Ocasional/Ped.;S;N;-8.052197;-34.902136
+433;Visconde de Jequitinhonha, Av.;Capitão Zuzinha, Rua;E/Git;Veicular;N;N;-8.133035;-34.902852
+434;José Rufino, Av. Dr.;Sancho, Rua do;E/Git;Veic.C/Ped.Ocas.;N;N;-8.090909;-34.957331
+435;Harmonia, Rua da;Encanamento, Estrada do;E/Git;Veicular;N;N;-8.031533;-34.915277
+436;Apolo, Cais do;Militar, Av.;E/Git;Veicular;N;N;-8.053540;-34.871839
+437;10 de Julho, Rua;Dom João VI, Av. (canal do Jordão);E/Git;Veicular;N;N;-8.135802;-34.908452
+438;Boa Viagem, Av.;Próximo à Rua Verdes Mares;E/Git;Ocasional/Ped.;N;S;-8.135429;-34.901386
+439;Mascarenhas de Morais, Av.;Nº 2727, Em Frente ao;E/Git;Ocasional/Ped.;S;N;-8.106415;-34.911255
+440;Liberdade, Av.;Juvêncio Marques da Cunha, Rua;E/Git;Veic.C/Ped.Ocas.;N;N;-8.081032;-34.968542
+441;Armindo Moura, Av.;Cosmorama, Rua;E/Git;Veicular;N;N;-8.148718;-34.914016
+442;Silvino Macedo, Rua Sgt.;Antônio Torres Galvão, Rua;E/Git;Veicular;N;N;-8.112050;-34.906685
+443;Visconde de Jequitinhonha, Av.;Charles Darwin, Rua;E/Git;Ocasional/Ped.;S;N;-8.130714;-34.902615
+444;Domingos Ferreira, Av.;Sérgio Cardim, Rua Cel.;E/Git;Ocasional/Ped.;N;N;-8.130800;-34.901295
+445;Boa Viagem, Av.;Zael Diógenes, Rua;E/Git;Veic.C/Ped.Paral.;N;S;-8.139063;-34.902598
+446;Arraial, Estrada do;E/F ao nº 2926;E/Git;Ocasional/Ped.;N;N;-8.029410;-34.908300
+447;Uriel de Holanda, Rua;Hildebrando Vasconcelos, Av.;E;Veic.C/Ped.Ocas.;N;N;-8.004139;-34.899555
+448;Souza Bandeira, Rua;Tomaz Gonzaga, Rua;E;Veicular;N;N;-8.048884;-34.917864
+449;Jean Emile Favre, Rua;Itacari, Rua;E;Veicular;N;N;-8.107902;-34.915933
+450;Pampulha, Rua;Izabel de Souza, Rua;E/Git;Veicular;N;N;-8.109840;-34.912939
+451;Norte Miguel Arraes de Alencar, Av.;Tijucal, Rua;E/Git;Veicular;N;N;-8.013432;-34.931481
+452;Rui Barbosa, Av.;Em frente ao Parque da Jaqueira;E/Git;Ocasional/Ped.;N;N;-8.037930;-34.905533
+453;Apolo, Cais do;Em frente ao Tribunal Regional Federal;E/Git;Ocasional/Ped.;N;N;-8.058771;-34.872580
+454;Apolo, Cais do;Em frente a Praça Tiradentes;E/Git;Ocasional/Ped.;N;N;-8.058860;-34.872457
+455;Cruz Cabugá, Av.;Em frente a Praça Abreu e Lima;E/Git;Veic.C/Ped.Ocas.;N;N;-8.046379;-34.876150
+456;Norte Miguel Arraes de Alencar, Av.;Salvador de Sá, Rua;E/Git;Veic.C/Ped.Ocas.;N;N;-8.031505;-34.898032
+457;Cruz Cabugá, Av.;Araripina, Rua;E;Ocasional/Ped.;N;N;-8.050455;-34.879040
+458;Belém, Estrada de;Gonçalves Dias, Rua;E;Veic.C/Ped.;N;N;-8.032065;-34.877881
+459;Conselheiro Rosa e Silva, Av.;Conselheiro Portela, Rua;E/Git;Veic.C/Ped.Paral.;N;N;-8.043634;-34.897365
+460;Parnamirim, Av.;Leonardo Bezerra Cavalcante, Rua;E/Git;Veic.C/Ped.Paral.;N;N;-8.035814;-34.906837
+461;Recife, Av.;Makro, Próximo ao Supermercado;E/Git;Ocasional/Ped.;N;N;-8.088813;-34.929836
+462;Encanamento, Estrada do;Ferreira Lopes, Rua;E/Git;Veicular;N;N;-8.032263;-34.912967
+463;Norte Miguel Arraes De Alencar, Av.;Vinte E Quatro De Agosto, Rua;;;;;-8.049120;-34.874913
+464;Conselheiro Portela, Rua;Barão de Itamaracá, Rua;E/Git;Veicular;N;N;-8.042562;-34.894676
+465;Agamenon Magalhães, Av. Gov.;E/F à Reitoria da FESP/UPE;E/Git;Ocasional/Ped.;S;N;-8.043816;-34.887198
+466;Príncipe, Rua do;Em frente ao Hospital Geral do Recife;E/Git;Pedestre;N;N;-8.057845;-34.883644
+467;Barão da Vitória, Rua;Em frente a Estação Central RFFSA;E;Pedestre;N;N;-8.066941;-34.883257
+468;Cruz Cabugá, Av.;Shopping Tacaruna, ao lado do;E/Git;Ocasional/Ped.;N;N;-8.039662;-34.871386
+469;17 de Agosto, Av.;Jader de Andrade, Rua;E/Git;Veicular;N;N;-8.033854;-34.922021
+470;Cruz Cabugá, Av.;E/F ao Nº 1920 (Sent. Olinda);E/Git;Ocasional/Ped.;N;N;-8.039706;-34.871276
+471;Mascarenhas de Morais, Av.;João Fontes, Rua;E/Git;Veicular;N;N;-8.125187;-34.914922
+472;Moças, Rua das;Regeneração, Rua da;E;Veicular;N;N;-8.021438;-34.886511
+473;12 de Setembro, Ponte;Santa Rita, Cais de;E/Git;Veicular;N;N;-8.068208;-34.874704
+474;Cruz Cabugá, Av.;Em frente ao Hospital do Câncer;E/Git;Ocasional/Ped.;N;N;-8.042124;-34.873114
+475;Dois Rios, Av.;Rio Chuí, Rua;E/Git;Ocasional/Ped.;S;N;-8.115407;-34.940297
+476;Barão de Souza Leão, Rua;Desembargador José Neves, Rua;E/GIt;Veicular;N;N;-8.132819;-34.911010
+477;Madre de Deus, Rua;Alfredo Lisboa, Av.;E/Git;Veicular;N;N;-8.066185;-34.873324
+478;Cosme Viana, Rua;João Cardoso Aires, Rua;E/Git;Veicular;N;N;-8.141132;-34.911158
+479;Cruz Cabugá, Av.;F. Barreto, Rua;E/Git;Ocasional/Ped.;N;N;-8.042155;-34.873047
+480;Beberibe, Av.;Em frente ao Nº 621;E/Git;Ocasional/Ped.;S;N;-8.031910;-34.89200
+481;Sport Club do Recife, Rua;Benedito Monteiro, Rua Prof.;E/Git;Veicular;N;N;-8.061132;-34.904010
+482;Do Forte, Av.;Em frente a Praça do Forte;E;Ocasional/Ped.;N;N;-8.058380;-34.931269
+483;Boa Viagem, Av.;Vicente Gomes, Rua;E/Git;Veic.C/Ped.Paral.;N;S;-8.133277;-34.900494
+484;Domingos Ferreira, Av.;Henrique Capitulino, Rua;E/Git;Ocasional/Ped.;N;N;-8.109199;-34.891495
+485;Leonardo Cavalcante, Rua;Rua Igarassu;E;Veicular;N;N;-8.039059;-34.911532
+486;Conde da Boa Vista, Av.;Sete de Setembro, Rua;E/Git;Ocasional/Ped.;S;N;-8.061073;-34.883421
+487;José Bonifácio, Rua;Marcos André, Rua;E/Git;Veicular;N;N;-8.041003;-34.908696
+488;República, Pça. da;E/F ao Palácio das Princesas;E;Ocasional/Ped.;S;N;-8.060398;-34.877658
+489;Caxangá, Av.;José Osório, Rua;E/Git;Veicular;N;N;-8.054367;-34.913983
+490;Frei Matias Teves, Av.;Francisco Alves, Rua;E/Git;Veic.C/Ped.Ocas.;N;N;-8.066542;-34.895424
+491;José Rufino, Av. Dr.;E/F à Igreja de Santa Luzia;E;Ocasional/Ped.;N;N;-8.086622;-34.930909
+492;Beberibe, Av.;Ramiz Galvão, Rua;E/Git;Veic.C/Ped.Ocas.;N;N;-8.025192;-34.893494
+493;Arquiteto Luis Nunes, Rua;Em frente ao Nº 551;E/Git;Ocasional/Ped.;N;N;-8.088710;-34.910400
+494;Recife, Av.;Rua Gregório Caldas;E/Git;Veic.C/Ped.Ocas.;N;N;-8.096045;-34.928796
+495;Mem de Sá, Rua;Jerônimo Gueiros, Rua Prof.;E;Veicular;N;N;-8.029678;-34.889778
+496;Ribeiro de Brito, Rua;Agenor Lopes, Rua;E/Git;Veicular;N;N;-8.122962;-34.905851
+497;José Rufino, Av. Dr.;Em frente a Estação do Metrô;E/Git;Ocasional/Ped.;N;N;-8.090773;-34.956702
+498;Joaquim Nabuco, Rua;Guilherme Pinto, Rua;E/Git;Veicular;N;N;-8.052791;-34.902218
+499;Cosme Viana, Rua;Rua Pe. Teófilo Twortz;E;Veic.c/Ped.Ocas.;S;N;-8.065205;-34.909143
+500;Dois Irmãos, Av.;Mandacaru, Rua;E;Veicular;N;N;-8.021975;-34.931659
+501;Mascarenhas de Morais, Av.;Frigoríficos, Estrada dos (próximo);E/Git;Ocasional/Ped.;N;N;-8.103560;-34.910724
+502;Mascarenhas de Morais, Av.;Itália, Rua (próximo);E/Git;Ocasional/Ped.;N;N;-8.103578;-34.910910
+503;João Ivo da Silva, Rua;Próx. a Rua Teófilo Twortz;E;Ocasional/Ped.;S;N;-8.065091;-34.909180
+504;Belém, Estrada de;Fonseca de Oliveira, Rua;E;Veic.c/Ped.Ocas.;N;N;-8.032296;-34.879488
+505;São Nicolau, Rua;Hélio Brandão, Rua;E/Git;Veicular;N;N;-8.106765;-34.925860
+506;José Rufino, Av. Dr.;Próximo ao SENAI;E;Ocasional/Ped.;N;N;-8.089689;-34.933992
+507;São Paulo, Av.;Leandro Barreto, Rua;E/Git;Veic.C/Ped.Paral.;N;N;-8.079773;-34.940728
+508;Francisco Alves, Rua;Miguel de Cervante, Praça;E;Veicular;N;N;-8.067278;-34.893830
+509;Sul, Av.;José de Sá Leitão, Rua Padre;E/Git;Veicular;N;N;-8.075179;-34.889954
+510;Imperial, Rua;Raposo, Travessa do;E/Git;Veicular;N;N;-8.074596;-34.890171
+511;Imperial, Rua;Azevedo, Travessa do;E/Git;Veicular;N;N;-8.074426;-34.889726
+512;Rio Largo, Av.;Doze de Julho, Rua;E;Ocasional/Ped.;N;N;-8.112915;-34.953042
+513;Conselheiro Teodoro, Rua;Tomás Gonzaga, Rua;E;Veicular;N;N;-8.049306;-34.915263
+514;Beberibe, Av.;Em frente ao Nº 4277;E;Ocasional/Ped.;N;N;-8.004510;-34.895100
+515;Benfica, Rua;Euclides da Cunha, Praça;E/Git;Veicular;N;N;-8.058326;-34.904122
+516;Derby, Praça do;Estação BRT Derby (Sub/Cid);E/Git;Ocasional/Ped.;N;N;-8.056757;-34.899417
+517;Beberibe, Av.;E/F ao Instituto Sto. Amaro;E;Ocasional/Ped.;N;N;-8.007810;-34.889900
+518;Dois Rios, Av.;Jornalista Edson Regis, Rua;E/Git;Veicular;N;N;-8.109113;-34.935269
+519;Prof. Eduardo Wanderley Filho, Rua;Em frente ao Nº 110;E;Ocasional/Ped.;N;N;-8.082546;-34.907681
+520;Acadêmico Hélio Ramos, Rua;Amaro Poroca, Rua;E;Veic.c/Ped.Ocas.;N;N;-8.049597;-34.954629
+521;Conselheiro Portela, Rua;Futuro, Rua do;E/Git;Veicular;N;N;-8.043868;-34.898305
+522;Conselheiro Rosa e Silva, Av.;Antenor Navarro, Rua;E/Git;Veic.C/Ped.Paral.;N;N;-8.036899;-34.901582
+523;Cruz Cabugá, Av.;Lima, Rua do;E;Ocasional/Ped.;N;N;-8.052469;-34.880509
+524;Remédios, Estrada dos;Inconfidentes, Rua (próximo);E;Ocasional/Ped.;N;N;-8.070979;-34.908135
+525;Cosme Viana, Rua;3 de Agosto, Rua;E/Git;Veicular;N;N;-8.074565;-34.908909
+526;Álvares de Azevedo, Rua;Palmares, Rua dos;E;Veicular;N;N;-8.049589;-34.888642
+527;Jean Emile Favre, Rua;Francisco Barreto, Rua;E;Veic.C/Ped.;N;N;-8.111191;-34.919728
+528;Paz, Rua;João Carlos Guimarães, Rua;E/Git;Ocasional/Ped.;N;N;-8.080049;-34.905238
+529;Armindo Moura, Av.;Ernesto de Souza Leão Rua,;E/GIt;Ocasional/Ped.;N;N;-8.149344;-34.912376
+530;Mascarenhas de Morais, Av.;E/F a concessionária Sael;E/Git;Ocasional/Ped.;N;N;-8.127410;-34.915300
+531;Mascarenhas de Morais, Av.;Próximo à antiga Av. Recife;E/Git;Ocasional/Ped.;N;N;-8.127376;-34.915543
+532;Mascarenhas de Morais, Av.;Dr. Waldir Pessoa, Rua;E/Git;Veicular;N;N;-8.090385;-34.908351
+533;Caxangá, Av.;Barbalho, Estrada do;E/Git;Veicular;N;N;-8.039323;-34.941192
+534;Mascarenhas de Morais, Av.;Pampulha, Rua;E/Git;Veicular;N;N;-8.110056;-34.912126
+535;Apipucos, Av.;Colégio Candido Duarte, Próx.;E;Ocasional/Ped.;N;N;-8.020359;-34.939602
+536;Regeneração, Rua da;Machado, Rua do;E;Veicular;N;N;-8.020558;-34.888830
+537;Arquiteto Luis Nunes, Rua;Av. Pinheiros;E/Git;Veic.C/Ped.Ocas.;N;N;-8.090983;-34.910663
+538;Antônio de Góis, Av.;Rua José Mariano Filho;E/Git;Veic.C/Ped.Paral.;N;N;-8.087182;-34.884907
+539;José Rufino, Av. Dr.;Dorotéia Vieira, Rua;E;Ocasional/Ped.;N;N;-8.093115;-34.943245
+540;Apipucos, Av.;João Batista R. Barros, Rua Cel.;E;Veicular;N;N;-8.021102;-34.934164
+541;Prof. Joaquim Xavier de Brito, Rua;Miguel Vieira, Rua;E;Veicular;N;N;-8.051118;-34.934989
+542;Padre Carapuceiro, Rua;Ent. do Hiper Bompreço;E/Git;Ocasional/Ped.;N;N;-8.11681;-34.9022
+543;D. João VI, Av. ( Canal do Jordão );Antônio Torres Galvão, Rua;E/Git;Veicular;N;N;-8.114238;-34.902683
+544;Prof. J. Medeiros, Av.;Félix de Brito, Rua;E/Git;Veicular;N;N;-8.115377;-34.900496
+545;Domingos Ferreira, Av.;Félix de Brito, Rua;E/Git;Veicular;N;N;-8.117400;-34.896473
+546;Conselheiro Aguiar, Av.;Félix de Brito, Rua;E/Git;Veicular;N;N;-8.117851;-34.895593
+547;Boa Viagem, Av.;Félix de Brito, Rua;E/Git;Veic.C/Ped.Paral.;N;S;-8.118568;-34.894059
+548;Boa Viagem, Av.;Padre Bernardino Pessoa, Rua;E/Git;Veic.C/Ped.Paral.;N;S;-8.115285;-34.892210
+549;Conselheiro Aguiar, Av.;Prof. José Brandão, Rua;E/Git;Veicular;N;N;-8.112921;-34.892678
+550;Domingos Ferreira, Av.;Prof. José Brandão, Rua;E/Git;Veicular;N;N;-8.112446;-34.893509
+551;Félix de Brito, Rua;Francisco da Cunha, Rua;E/Git;Veicular;N;N;-8.116791;-34.897679
+552;Derby, Praça do;Estação BRT Derby;E/Git;Ocasional/Ped.;N;N;-8.056667;-34.899444
+553;Augusto Calheiros, Rua;Emília Torreão, Rua;E/Git;Ocasional/Ped.;N;N;-8.081860;-34.908968
+554;Petronila V. Botelho, Rua;Prof. José dos Anjos, Av.;E;Veicular;N;N;-8.027809;-34.889798
+555;Boa Viagem, Av.;Antônio Falcão, Rua;E/Git;Ocasional/Ped.;N;S;-8.116989;-34.893167
+556;Cosme Viana, Rua;Baltazar Passos, Rua;E/Git;Veicular;N;N;-8.142032;-34.911491
+557;José Rufino, Av. Dr.;Vilas Boas Dr. Rua;E;Veic.C/Ped.Ocas.;N;N;-8.092282;-34.937677
+558;Gomes Taborda, Rua;E/F a Esc. Comun.Coração Infantil;E;Ocasional/Ped.;N;N;-8.05641;-34.9206
+559;Beberibe, Av.;Côrtes, Rua;E;Ocasional/Ped.;N;N;-8.006012;-34.892094
+560;Arquiteto Luis Nunes, Rua;Escola Pinheiros, em frente;E/Git;Ocasional/Ped.;N;N;-8.090085;-34.910495
+561;Dois Rios, Av.;Agenor Albuquerque, Rua Pintor;E/Git;Veic.C/Ped.Ocas.;N;N;-8.110539;-34.936994
+562;Rui Barbosa, Av.;Graças, Rua das;E/Git;Ocasional/Ped.;N;N;-8.047071;-34.900733
+563;Luis Correia de Brito, Av.;Prof. José dos Anjos, Av.;E/Git;Veicular;N;N;-8.020518;-34.873489
+564;Jean Emile Favre, Rua;Potengi, Rua;E;Veicular;N;N;-8.108570;-34.916722
+565;Jerônimo Vilela, Rua;Machado, Rua Dr.;E;Veicular;N;N;-8.029414;-34.881878
+566;Miguel Vieira Ferreira, Rua Dr.;Inácio Monteiro, Rua;E;Veic.C/Ped.Ocas.;N;N;-8.051208;-34.933048
+567;Des. José Neves, Rua;Desembargador João Paes, Rua;E/Git;Veicular;N;N;-8.126658;-34.909940
+570;Mascarenhas de Morais, Av.;Ministro Salgado Filho, Praça;E;Ocasional/Ped.;N;N;-8.13331;-34.9164
+571;Cais de Santa Rita;Acesso ao terminal de ônibus;E/Git;Veicular;N;N;-8.069236;-34.876124
+572;10 de Julho, Rua;20 de Janeiro, Rua.;E/Git;Veicular;N;N;-8.134801;-34.913548
+573;10 de Julho, Rua;Waldemar Nery C. Monteiro, Rua;E/Git;Veicular;N;N;-8.135172;-34.911862
+574;João Cardoso Aires, Rua;Sá e Souza, Rua;E/Git;Veicular;N;N;-8.142274;-34.908591
+575;Beberibe, Av.;Dalva de oliveira, Rua Cantora;E;Veic.C/Ped.Ocas.;N;N;-8.006926;-34.890943
+576;José Bonifácio, Rua;Professora Anuciada, Próx. Rua,;E/Git;Ocasional/Ped.;N;N;-8.049136;-34.906479
+577;Gal. Polidoro, Rua;Abatiá, Rua;E;Veicular;N;N;-8.042460;-34.946922
+578;Soledade, Rua da;Progresso, Rua do;E/Git;Veic.C/Ped.Ocas.;S;N;-8.058852;-34.889911
+579;Aurora, Rua da;Riachuelo, Rua do;E/Git;Veicular;N;N;-8.060809;-34.880832
+580;Desembargador José Neves, Av.;Após A Saida Do Tunel Augusto Lucena No Sentido Subcid;;;;;-8.121374;-34.909356
+581;Maria Irene, Av.;Alberto Ludgren;;;;;-8.137056;-34.936962
+582;Cais De Santa Rita;Em Frente Ao Edif. Pier Mauricio De Nassau- Sub/Cid;;;;;-8.071584;-34.877446
+583;Cais De Santa Rita;Em Frente Ao Edif. Pier Mauricio De Nassau- Cid/Sub;;;;;-8.071508;-34.877486
+584;Maria Irene, Av.;Proximo A Rua Cafarnaum;;;;;-8.140728;-34.929391
+585;Leonardo B. Cavalcante, Rua.;Praça Jornal Do Commércio;;;;;-8.037385;-34.913637
+586;Delmiro Gouveia, Rua;Em frente ao Prédio da CHESF;E;Ocasional/Ped.;S;N;-8.063632;-34.930486
+588;Estrada Dos Pintos;Rua Manoel De Medeiros;;;;;-8.016799;-34.951307
+589;Rua Odete Monteiro;Rua Prof. Estevão Francisco Da Costa;;;;;-8.047178;-34.918722
+593;Encanamento, Estrada do;Ubaias, Estrada das;E/Git;Veicular;N;N;-8.030341;-34.919003
+594;Dois Rios, Av.;Em frente ao Nº 110;E/Git;Ocasional/Ped.;N;N;-8.109820;-34.936173
+595;Joaquim Nabuco, Rua;Monsenhor Ambrosino Leite, Rua;E/Git;Veicular;N;N;-8.052665;-34.901092
+596;Norte Miguel Arraes de Alencar, Av.;E/F a Esc. Munic. Presbitero José Bezerra;E;Ocasional/Ped.;N;N;-8.01846;-34.9285
+597;Odete Monteiro, Rua;João Lacerda, Rua Dr.;E;Veic.C/Ped.Ocas.;S;N;-8.045478;-34.921760
+598;Harmonia, Rua da;Major Nereu Guerra, Rua;E/Git;Veicular;N;N;-8.026241;-34.913430
+599;Recife, Av.;Conj. Inês Andeazza, Em frente ao;E/Git;Ocasional/Ped.;N;N;-8.097522;-34.928591
+600;Monsenhor Ambrosino Leite, Rua;Pernambucanas, Rua das;E/Git;Veicular;N;N;-8.050878;-34.901050
+601;José Bonifácio, Rua;José de Holanda, Rua;E/Git;Ocasional/Ped.;S;N;-8.044731;-34.907491
+602;Padre Lemos, Rua;Visconde de Taunay, Rua;E;Veic.C/Ped.Ocas.;N;N;-8.024301;-34.917945
+603;Guararapes, Av.;Estação BRT Guararapes, (Sub/Cid);E/Git;Pedestre;N;N;-8.0636434;-34.878893
+604;Guararapes, Av.;Estação BRT Guararapes, (Cid/Sub);E/Git;Pedestre;N;N;-8.0635690;-34.878803
+605;Caxangá, Av.;Estação BRT Riacho Cavoco (Cid/Sub);E/Git;Ocasional/Ped.;N;N;-8.036393;-34.946281
+606;Caxangá, Av.;Estação BRT Pq. Do Cordeiro (Sub/Cid);E/Git;Ocasional/Ped.;N;N;-8.046407;-34.928610
+607;Caxangá, Av.;Estação BRT Caiara, (Cid/Sub);E/Git;Ocasional/Ped.;N;N;-8.043293;-34.933760
+608;Caxangá, Av.;Estação BRT Riacho Cavoco (Sub/Cid);E/Git;Pedestre;N;N;-8.036567;-34.946324
+609;Caxangá, Av.;Estação BRT Eng. Poeta, (Cid/Sub);E/Git;Ocasional/Ped.;N;N;-8.034399;-34.949951
+610;Caxangá, Av.;Estação BRT Caiara, (Sub/Cid);E/Git;Ocasional/Ped.;N;N;-8.043459;-34.933822
+611;21 de Abril, Rua;Proximo a Rua Bezerra da Palma;E/Git;Ocasional/Ped.;N;N;-8.076367;-34.913519
+612;Estrada de Belém;Próx. a Rua São Félix;E;Ocasional/Ped.;N;N;-8.032265;-34.879187
+613;Des. Goes Cavalcante, Rua;Albino Meira, Próx a Rua;E/Git;Ocasional/Ped.;N;N;-8.031017;-34.908528
+614;17 de Agosto, Av.;Flor de Santana, Av.;E/Git;Veicular;N;N;-8.035525;-34.912678
+615;José Rufino, Av. Dr.;Ao Nº 2673, Em frente;E/Git;Ocasional/Ped.;N;N;-8.092823;-34.946131
+616;Recife, Av.;Nº 2843, Em frente ao(Aeroporto/CEASA);E/Git;Ocasional/Ped.;N;N;-8.112691;-34.926312
+617;Recife, Av.;Areias, Em frente ao Hospital Geral de;E/Git;Ocasional/Ped.;N;N;-8.100470;-34.928072
+618;Recife, Av.;Conj. Inês Andreasa, Em frente ao;E/Git;Ocasional/Ped.;N;N;-8.097504;-34.928465
+619;Recife, Av.;Nº 727, Em frente ao;E/Git;Ocasional/Ped.;N;N;-8.092766;-34.929158
+620;Recife, Av.;Tapajós, Av.;E/Git;Ocasional/Ped.;N;N;-8.090861;-34.929408
+621;Recife, Av.;Semáforo nº 461, Lado oposto ao;E/Git;Ocasional/Ped.;N;N;-8.089031;-34.929653
+622;Regeneração, Rua da;Av. Beberibe, Aproximação da;E;Ocasional/Ped.;N;N;-8.018819;-34.892932
+623;Carlos Gomes, Rua;Ricardo Salazar, Rua;E/Git;Veicular;N;N;-8.057961;-34.910720
+624;Visconde de Suassuna, Av.;Nº 500, Em frente ao;E;Ocasional/Ped.;N;N;-8.052592;-34.886268
+625;Mascarenhas de Morais, Av.;Aurélio C.Cavalcante, lado oposto;E;Ocasional/Ped.;N;N;-8.139774;-34.917560
+626;Mascarenhas de Morais, Av.;Aurélio C.Cavalcante, próx. a Rua;E;Ocasional/Ped.;N;N;-8.139507;-34.917362
+627;Cruz Cabugá, Av.;Nº 665, Em frente ao;E/Git;Ocasional/Ped.;S;N;-8.048978;-34.878004
+628;Benfica, Rua;Demócrito de Souza Filho, Rua;E/Git;Veicular;N;N;-8.058146;-34.906144
+629;Benfica, Rua;Arlindo Gouveia, Rua;E/Git;Veicular;N;N;-8.057949;-34.904100
+630;Conde de Irajá, Rua;Beira Rio, Av.;E/Git;Veicular;N;N;-8.045639;-34.904331
+631;Mascarenhas de Morais, Av.;Noruega, Rua;E/Git;Veicular;N;N;-8.104908;-34.911083
+632;Arquiteto Luis Nunes, Rua;Frente  Esc Frente a Escola Anita Garibaldi;E/Git;Ocasional/Ped.;N;N;-8.095085;-34.911600
+633;Arquiteto Luis Nunes, Rua;Rua Miss. Joel Carlson;E/Git;Veicular;N;N;-8.096028;-34.911796
+634;Arquiteto Luis Nunes, Rua;Av. Eng. Alves de Souza;E/Git;Veic.C/Ped.Ocas.;N;N;-8.098032;-34.912281
+635;Arquiteto Luis Nunes, Rua;Em Frente ao N° 285;E/Git;Ocasional/Ped.;N;N;-8.1015170;-34.912952
+636;Rua Paris;Rua Jean Emile Favre;E/Git;Veicular;N;N;-8.105941;-34.913711
+637;Arquiteto Luis Nunes, Rua;Próx. Ao N° 476;E/Git;Ocasional/Ped.;N;N;-8.104876;-34.91351
+640;Mac. Arthur, Av. Gal.;Silvino de Macedo, Rua Sgt;E/Git;Veicular;N;N;-8.110396;-34.906276
+641;Uriel de Holanda, Rua;Esc. Est. Pe. Nércio Rodrigues,E/Frente;E;Ocasional/Ped.;N;N;-8.008529;-34.904465
+642;Jerônimo Vilela, Rua;Prof. José dos Anjos;E;Veicular;N;N;-8.024514;-34.882922
+643;Norte Miguel Arraes de Alencar, Av.;Gomes Coutinho, Rua;E/Git;Veicular;N;N;-8.026861;-34.904560
+644;Barão de Souza Leão, Rua;20 de Janeiro, Rua.;E/Git;Veic.C/Ped.Paral.;N;N;-8.133081;-34.913173
+645;Luis Correia de Brito, Av.;Nº 787, E/F;E;Ocasional/Ped.;N;N;-8.024768;-34.874983
+646;17 de Agosto, Av.;Engenheiro Oscar Ferreira, Rua;E/Git;Veicular;N;N;-8.030863;-34.924507
+647;do Arraial, Estrada;ao Nº 4715, E/F;E/Git;Ocasional/Ped.;N;N;-8.027678;-34.924486
+648;Antônio Falcão, Rua;Gal. Edson A. Ramalho, Rua;E/Git;Veicular;N;N;-8.113374;-34.900106
+649;João Tude de Melo, Rua;Virgínia Loreto, Rua;E/Git;Veicular;N;N;-8.035838;-34.909644
+650;Agamenon Magalhães, Av. Gov.;Em frente ao Hospital da Restauração;E/Git;Ocasional/Ped.;N;N;-8.054795;-34.897674
+651;Rua João Sales de Menezes;Av. Professor Antonio Coelho;E/Git;Veic.C/Ped.Paral.;N;N;-8.039950;-34.944695
+652;Av. Mário Álvares Pereira de Lyra;Rua Mauricéa;E/Git;Veic.C/Ped.Paral.;N;N;-8.047018;-34.936019
+653;Rua Estado de Israel;Av. Lins Petit;E/Git;Veicular;N;N;-8.062788;-34.895284
+654;Av. São Paulo;Rua Construtor Luiz Carvalhedo;E/Git;Veic.C/Ped.Paral.;N;N;-8.082019;-34.939725
+655;Estrada das Ubaias;Rua Conselheiro Nabuco;E/Git;Veic.C/Ped.Paral.;N;N;-8.029123;-34.917341
+656;Rua Antonio de Góes;Rua Nogueira de Souza;E/Git;Veicular;N;N;-8.085030;-34.887150
+657;Av. Herculano Bandeira;Rua Nogueira de Souza;E/Git;Veicular;N;N;-8.085877;-34.888019
+658;Av. Republica Árabe Unida;Rua Nogueira de Souza;E/Git;Veicular;N;N;-8.086776;-34.888969
+659;Rua Manoel de Brito;Av. Republica Árabe Unida;E/Git;Veicular;N;N;-8.087144;-34.888434
+660;Av. Herculano Bandeira;Rua Arquiteto Augusto Reinaldo;E/Git;Veicular;N;N;-8.085393;-34.888464
+661;Largo do Cabanga (sent. B. Viagem);Pista Oeste;E/Git;Ocasional/Ped.;N;N;-8.079534;-34.892795
+662;Largo do Cabanga (sent. B. Viagem);Pista Leste;E/Git;Ocasional/Ped.;N;N;-8.080363;-34.892198
+663;Boa Viagem, Av.;Rua Henrique Capitolino;E/Git;Veic.C/Ped.Paral.;N;N;-8.110297;-34.889290

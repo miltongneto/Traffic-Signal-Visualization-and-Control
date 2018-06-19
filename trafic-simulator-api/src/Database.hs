@@ -3,7 +3,9 @@ module Database
   ( createTableTrafficSignal,
     selectAllTrafficSignals,
     insertTrafficSignal,
-    getTrafficSignalById
+    insertDataFromCSV,
+    getTrafficSignalById,
+    getAllTrafficSignals
   ) where
 
 
@@ -86,6 +88,7 @@ insertTrafficSignal localizacao1 localizacao2 funcionamento utilizacao sinalsono
     commit conn
     disconnect conn
 
+insertDataFromCSV :: IO ()
 insertDataFromCSV = do
     l <- readDataFromCSV
     insertAllLines (parseData l)
@@ -97,9 +100,14 @@ insertAllLines (Right (x:xs)) = do
     insertAllLines (Right xs)
 
 
---getById :: Int -> [[SqlValue]]
+getTrafficSignalById :: Int -> IO TrafficSignal
 getTrafficSignalById id = do
     conn <- connect
     result <- quickQuery' conn "SELECT * FROM TrafficSignal WHERE id == ? " [toSql (id::Int)]
     return $ trafficSignalFromSql $ head result
-    --mapM_ print r
+
+getAllTrafficSignals :: IO [TrafficSignal]
+getAllTrafficSignals = do
+    conn <- connect
+    results <- quickQuery' conn "SELECT * FROM TrafficSignal" []
+    return $ map trafficSignalFromSql results
