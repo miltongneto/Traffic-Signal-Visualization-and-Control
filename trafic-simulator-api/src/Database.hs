@@ -114,8 +114,8 @@ getAllTrafficSignals = do
 
 updateTrafficSignalStatus :: IO ()
 updateTrafficSignalStatus = do
-    con <- connect
-    stmt <- prepare conn "update TrafficSignal set status = (status + 1) % 3 lastUpdate = now() where now() - lastUpdate > "
+    conn <- connect
+    stmt <- prepare conn "update TrafficSignal set status = (status + 1) % 3, lastUpdate = datetime('now') where  Cast ((julianday('now') - julianday(lastUpdate)) * 24 * 60 * 60 As Integer) > CASE WHEN status = 0 then timeToClose ELSE CASE WHEN status = 1 then 1 ELSE timeToOpen END END"
     result <- execute stmt
     commit conn
     disconnect conn
