@@ -5,7 +5,8 @@ module Database
     insertTrafficSignal,
     insertDataFromCSV,
     getTrafficSignalById,
-    getAllTrafficSignals
+    getAllTrafficSignals,
+    updateTrafficSignalStatus
   ) where
 
 
