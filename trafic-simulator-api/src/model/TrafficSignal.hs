@@ -3,6 +3,7 @@ module Model.TrafficSignal where
 
 import GHC.Generics
 import Data.Aeson (FromJSON, ToJSON)
+import Data.Time
 
 data TrafficSignal = TrafficSignal { 
   trafficId            :: Int,
@@ -13,7 +14,9 @@ data TrafficSignal = TrafficSignal {
   sinalSonoro         :: String,
   sinalizadorCiclista :: String,
   latitude            :: Double,
-  longitude           :: Double
+  longitude           :: Double,
+  status              :: Int,
+  lastUpdate          :: LocalTime
 } deriving (Show, Generic)
 
 instance ToJSON TrafficSignal

@@ -9,6 +9,15 @@ import Control.Monad
 import Control.Monad.IO.Class
 import GHC.Generics
 import Data.Aeson.Types
+import Model.TrafficSignal (status)
+import Data.Time
+
+--getDate = getCurrentTime >>= return . toGregorian . utctDay
+
+getTime = TimeOfDay 10 30 30
+getDay = fromGregorian 2018 6 15 
+
+getData = LocalTime getDay getTime
 
 t1 = TrafficSignal { 
   trafficId = 1, 
@@ -19,7 +28,9 @@ t1 = TrafficSignal {
   sinalSonoro = "S",
   sinalizadorCiclista = "T",
   latitude = -8.4235,
-  longitude = -54.1232
+  longitude = -54.1232,
+  Model.TrafficSignal.status = 1,
+  lastUpdate = getData
 }
 t2 = TrafficSignal {
   trafficId = 2, 
@@ -30,7 +41,9 @@ t2 = TrafficSignal {
   sinalSonoro = "N",
   sinalizadorCiclista = "N",
   latitude = -12.4235,
-  longitude = -34.1232
+  longitude = -34.1232,
+  Model.TrafficSignal.status = 2,
+  lastUpdate = getData 
 }
 allSignal = [t1, t2]
 

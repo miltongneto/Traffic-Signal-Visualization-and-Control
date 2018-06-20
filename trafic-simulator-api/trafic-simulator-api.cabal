@@ -23,4 +23,5 @@ executable trafic-simulator-api
                        aeson,
                        HDBC,
                        HDBC-sqlite3,
-                       parsec
+                       parsec,
+                       time
