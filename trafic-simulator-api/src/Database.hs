@@ -23,7 +23,8 @@ connect = connectSqlite3 "TrafficSignalDB.db"
 --createTableSignal :: IO Connection
 createTableTrafficSignal = do
     conn <- connect
-    run conn "CREATE TABLE TrafficSignal (id INTEGER PRIMARY KEY, localizacao1 VARCHAR(100), localizacao2 VARCHAR(100), funcionamento VARCHAR(10), utilizacao VARCHAR(20), sinalsonoro VARCHAR(1), sinalizadorciclista VARCHAR(1), Latitude NUMERIC(20), Longitude NUMERIC(20), status INTEGER, lastUpdate DATE)" []
+    run conn "DROP TABLE TrafficSignal" []
+    run conn "CREATE TABLE TrafficSignal (id INTEGER PRIMARY KEY, localizacao1 VARCHAR(100), localizacao2 VARCHAR(100), funcionamento VARCHAR(10), utilizacao VARCHAR(20), sinalsonoro VARCHAR(1), sinalizadorciclista VARCHAR(1), Latitude NUMERIC(20), Longitude NUMERIC(20), timeToClose INTEGER, timeToOpen INTEGER, status INTEGER, lastUpdate DATETIME)" []
     commit conn
 
 {-
@@ -35,7 +36,7 @@ selectAllTrafficSignals = do
 -}
 
 
-trafficSignalFromSql [id, localizacao1, localizacao2, func, utl, sinalsonoro, sinalizadorciclista, latitude, longitude, status, lastUpdate] =
+trafficSignalFromSql [id, localizacao1, localizacao2, func, utl, sinalsonoro, sinalizadorciclista, latitude, longitude, timeToClose, timeToOpen, status, lastUpdate] =
     TrafficSignal {
     trafficId =  fromSql id, 
     localizacao1 = fromSql localizacao1, 
@@ -46,6 +47,8 @@ trafficSignalFromSql [id, localizacao1, localizacao2, func, utl, sinalsonoro, si
     sinalizadorCiclista = fromSql sinalizadorciclista,
     latitude = fromSql latitude,
     longitude = fromSql longitude,
+    timeToClose = fromSql timeToClose,
+    timeToOpen = fromSql timeToOpen,
     status = fromSql status,
     lastUpdate = fromSql lastUpdate
 }
@@ -76,7 +79,7 @@ selectLastId = do
     return (getLastId result)
 
 stmtInsertTrafficSignal :: Connection -> IO Statement
-stmtInsertTrafficSignal conn = prepare conn "INSERT INTO TrafficSignal VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+stmtInsertTrafficSignal conn = prepare conn "INSERT INTO TrafficSignal VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
 
 insertTrafficSignalTest :: IO ()
 insertTrafficSignalTest = do
@@ -87,12 +90,25 @@ insertTrafficSignalTest = do
     commit conn
     disconnect conn
 
-insertTrafficSignal :: String -> String -> String -> String -> Char -> Char -> Double -> Double -> Int -> LocalTime -> IO ()
-insertTrafficSignal localizacao1 localizacao2 funcionamento utilizacao sinalsonoro sinalizadorciclista latitude longitude status localtime = do
+insertTrafficSignal :: String -> String -> String -> String -> Char -> Char -> Double -> Double -> Int -> Int -> Int -> LocalTime -> IO ()
+insertTrafficSignal localizacao1 localizacao2 funcionamento utilizacao sinalsonoro sinalizadorciclista latitude longitude timeToClose timeToOpen status localtime = do
     conn <- connect
     stmt <- stmtInsertTrafficSignal conn
     currentID <- selectLastId
-    result <- execute stmt [toSql (currentID + 1), toSql localizacao1, toSql localizacao2, toSql funcionamento, toSql utilizacao, toSql sinalsonoro, toSql sinalizadorciclista, toSql latitude, toSql longitude,    toSql status, toSql localtime]
+    result <- execute stmt [
+        toSql (currentID + 1), 
+        toSql localizacao1, 
+        toSql localizacao2, 
+        toSql funcionamento, 
+        toSql utilizacao, 
+        toSql sinalsonoro, 
+        toSql sinalizadorciclista, 
+        toSql latitude, 
+        toSql longitude, 
+        toSql timeToClose, 
+        toSql timeToOpen, 
+        toSql status, 
+        toSql localtime]
     commit conn
     disconnect conn
 
@@ -104,7 +120,7 @@ insertDataFromCSV = do
 insertAllLines :: Either ParseError [[String]] -> IO ()
 insertAllLines (Right []) = return ()
 insertAllLines (Right (x:xs)) = do 
-    insertTrafficSignal (elemIndex x 1) (elemIndex x 2) (elemIndex x 3) (elemIndex x 4) (toChar (elemIndex x 5)) (toChar (elemIndex x 6)) (read (elemIndex x 7)::Double) (read (elemIndex x 8)::Double) 1 getData
+    insertTrafficSignal (elemIndex x 1) (elemIndex x 2) (elemIndex x 3) (elemIndex x 4) (toChar (elemIndex x 5)) (toChar (elemIndex x 6)) (read (elemIndex x 7)::Double) (read (elemIndex x 8)::Double) 15 10 0 getData
     insertAllLines (Right xs)
 
 

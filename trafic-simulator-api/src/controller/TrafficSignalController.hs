@@ -60,4 +60,5 @@ getAll = do
 
 updateById :: ActionM ()
 updateById = do 
+  --trafficSignal <- jsonData :: TrafficSignal
   text "update by id"

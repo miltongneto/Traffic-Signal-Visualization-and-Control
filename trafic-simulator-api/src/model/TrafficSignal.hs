@@ -6,7 +6,7 @@ import Data.Aeson (FromJSON, ToJSON)
 import Data.Time
 
 data TrafficSignal = TrafficSignal { 
-  trafficId            :: Int,
+  trafficId           :: Int,
   localizacao1        :: String,
   localizacao2        :: String,
   funcionamento       :: String,
@@ -15,6 +15,8 @@ data TrafficSignal = TrafficSignal {
   sinalizadorCiclista :: String,
   latitude            :: Double,
   longitude           :: Double,
+  timeToClose         :: Int,
+  timeToOpen          :: Int,
   status              :: Int,
   lastUpdate          :: LocalTime
 } deriving (Show, Generic)
