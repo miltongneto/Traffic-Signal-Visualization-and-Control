@@ -7,10 +7,16 @@ import Config.Routes
 import Database
 import Jobs
 
+myCors = cors (const $ Just policy)
+  where
+    policy = simpleCorsResourcePolicy
+      { corsRequestHeaders = ["Content-Type"]
+      , corsMethods = "OPTIONS" : simpleMethods }
+
 main = do
   putStrLn "Starting Server..."
   scotty 3003 $ do 
-    middleware simpleCors
+    middleware myCors
     routes
 
 startJob = do

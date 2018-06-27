@@ -6,7 +6,9 @@ module Database
     insertDataFromCSV,
     getTrafficSignalById,
     getAllTrafficSignals,
-    updateTrafficSignalStatus
+    updateTrafficSignalStatus,
+    updateTrafficSignalById,
+    forceChangeStatus
   ) where
 
 
@@ -81,6 +83,15 @@ selectLastId = do
 stmtInsertTrafficSignal :: Connection -> IO Statement
 stmtInsertTrafficSignal conn = prepare conn "INSERT INTO TrafficSignal VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
 
+stmtUpdateTrafficSignal :: Connection -> IO Statement
+stmtUpdateTrafficSignal conn = prepare conn "UPDATE TrafficSignal SET localizacao1 = ?, localizacao2 = ?, funcionamento = ?, utilizacao = ?, sinalsonoro = ?, sinalizadorciclista = ?, Latitude = ?, Longitude = ?, timeToClose = ?, timeToOpen = ? WHERE id == ?"
+
+stmtForceStatusChange :: Connection -> IO Statement
+stmtForceStatusChange conn = prepare conn "UPDATE TrafficSignal SET status = (status + 1) % 3, lastUpdate = datetime('now') WHERE id == ?"
+
+stmtUpdateAllStatus :: Connection -> IO Statement
+stmtUpdateAllStatus conn = prepare conn "update TrafficSignal set status = (status + 1) % 3, lastUpdate = datetime('now') where Cast ((julianday('now') - julianday(lastUpdate)) * 24 * 60 * 60 As Integer) > CASE WHEN status = 0 then timeToClose ELSE CASE WHEN status = 1 then 1 ELSE timeToOpen END END"
+
 insertTrafficSignalTest :: IO ()
 insertTrafficSignalTest = do
     conn <- connect
@@ -139,7 +150,34 @@ getAllTrafficSignals = do
 updateTrafficSignalStatus :: IO ()
 updateTrafficSignalStatus = do
     conn <- connect
-    stmt <- prepare conn "update TrafficSignal set status = (status + 1) % 3, lastUpdate = datetime('now') where  Cast ((julianday('now') - julianday(lastUpdate)) * 24 * 60 * 60 As Integer) > CASE WHEN status = 0 then timeToClose ELSE CASE WHEN status = 1 then 1 ELSE timeToOpen END END"
+    stmt <- stmtUpdateAllStatus conn
     result <- execute stmt []
+    commit conn
+    disconnect conn
+
+updateTrafficSignalById :: Int -> TrafficSignal -> IO ()
+updateTrafficSignalById id trafficSignal = do
+    conn <- connect
+    stmt <- stmtUpdateTrafficSignal conn
+    result <- execute stmt [
+        toSql $ localizacao1 trafficSignal, 
+        toSql $ localizacao2 trafficSignal, 
+        toSql $ funcionamento trafficSignal, 
+        toSql $ utilizacao trafficSignal, 
+        toSql $ sinalSonoro trafficSignal, 
+        toSql $ sinalizadorCiclista trafficSignal, 
+        toSql $ latitude trafficSignal, 
+        toSql $ longitude trafficSignal, 
+        toSql $ timeToClose trafficSignal, 
+        toSql $ timeToOpen trafficSignal,
+        toSql id]
+    commit conn
+    disconnect conn
+
+forceChangeStatus ::  Int -> IO ()
+forceChangeStatus id = do
+    conn <- connect
+    stmt <- stmtForceStatusChange conn
+    execute stmt [toSql id]
     commit conn
     disconnect conn

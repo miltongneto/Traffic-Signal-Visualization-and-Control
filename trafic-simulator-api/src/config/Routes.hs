@@ -9,3 +9,4 @@ routes = do
   get "/api/traffic-signal" TSC.getAll
   get "/api/traffic-signal/:id" TSC.getById
   post "/api/traffic-signal/:id" TSC.updateById
+  post "/api/traffic-signal/forceStatusChange/:id" TSC.forceStatusChange

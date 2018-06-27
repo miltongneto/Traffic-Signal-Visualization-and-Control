@@ -10,22 +10,28 @@ body {
 
 .App {
   text-align: center;
+  background-color: snow;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 60px;
+  display: inline-block;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  height: 100px;
   padding: 20px;
-  color: white;
+  color: #000;
 }
 
 .App-title {
   font-size: 1.5em;
+  width: 240px;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  top: 12px;
 }
 
 .App-intro {
